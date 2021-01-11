@@ -21,18 +21,18 @@ p {
 }
 
 .lesson-part__wrapper {
-    padding: 100px 0 70px;
     width: 100%;
     margin: 0 auto;
 }
 
-.part-focused {
-    background-color: #F5FBFE;
 
+.lesson-part--active {
+    background-color:#F5FBFE;
 }
 
+
 .lesson-part__container {
-    width: 808px;
+    padding: 80px 279px;
     margin: 0 auto;
 }
 
@@ -52,6 +52,7 @@ article:first-of-type .lesson-part__header {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 900;
+    letter-spacing: 1px;
 }
 
 .lesson-part__header h1 {
@@ -66,4 +67,91 @@ article:first-of-type .lesson-part__header {
     color: #1E557A;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+}
+
+.lab {
+    background-color: #F4FEFE;
+    height: 500px;
+    position:absolute;
+    left:0;
+    right:0;
+    padding: 80px 279px
+}
+
+.lab .block-label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+.lab .block-header {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    position: static;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-top: 8px;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+
+.block-icon {
+    margin-right: 5px;
+}
+
+.lab .label {
+    font-size: 12px;
+    color: #368FD5;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    line-height: 13.2px;
+}
+
+
+.lab .knowledge-check__header h2 {
+    color:  #368FD5;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 38.4px;
+}
+
+button.launch {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    -webkit-transition: background-color 300ms, color 300ms;
+    transition: background-color 300ms, color 300ms;
+    display: block;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #368FD5;
+    margin: 16px auto;
+}
+
+img {
+    margin: 20px;
+    border-radius: 4px;
 }
