@@ -4,6 +4,7 @@
 
 ### Existing styles to be removed include:
 
+- fancy blockquote 
 - green word
 - blue word
 - red word
@@ -21,4 +22,5 @@
 
 
 ### New elements to be added: 
+
 - Callout keyword
