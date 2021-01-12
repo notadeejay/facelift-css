@@ -1,24 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,600&display=swap');
-
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-p {
-    line-height: 28px;
-}
 
 .lesson-part:first-of-type .lesson-part__wrapper{
     padding-top: 136px
     
 }
 
-
-.lesson-part--active {
-
-}
 
 .lesson-part__wrapper {
     width: 100%;
@@ -47,35 +32,18 @@ article:first-of-type .lesson-part__header {
 
 
 
-.lesson-part__header h3 {
-    color: #1E557A;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 1px;
+.lesson-part__contentBlock {
+    width: 100%;
+    padding: 24px 30px 0;
 }
 
-.lesson-part__header h1 {
-    color: #1E557A;
-    font-size: 42px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-}
 
-.section h2 {
-    color: #1E557A;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-}
 
 .lab {
     background-color: #F4FEFE;
-    height: 500px;
-    position:absolute;
-    left:0;
-    right:0;
-    padding: 80px 279px
+    margin-left: -310px;
+    padding: 80px 300px;
+    width: 100%
 }
 
 .lab .block-label {
@@ -117,13 +85,6 @@ article:first-of-type .lesson-part__header {
 }
 
 
-.lab .knowledge-check__header h2 {
-    color:  #368FD5;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    line-height: 38.4px;
-}
 
 button.launch {
     font-family: 'Lato', sans-serif;
