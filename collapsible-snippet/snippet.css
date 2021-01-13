@@ -1,0 +1,67 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contentBlock {
+  padding: 18px 30px;
+}
+
+.styled-dropdown {
+    width: 100%;
+    border-bottom: 8px solid #154268;
+    margin-top: 8px;
+}
+
+
+.styled-dropdown summary::-webkit-details-marker {
+    display:none;
+}
+
+.styled-dropdown summary {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1E557A;
+    line-height: 19.2px;
+    letter-spacing: 1px;
+    padding: 8px 8px 18px;
+    outline:none;
+}
+
+.styled-dropdown > summary::after {
+    content: '+';
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+.styled-dropdown[open] > summary::after
+{
+    content: '\2014';
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+.styled-dropdown .pre-content {
+    border-top: 1px solid #154268;
+    padding: 10px 24px;
+}
+
+/*Adjustments for the spacing between blocks. So if an LXD adds 2 Collapsible Blocks in a row, they will mock an accordion */
+/* .collapsible-html__dropdown summary {
+    padding-bottom: 0px;
+} */
+
+.collapsible-html__dropdown {
+    margin-top: 0;
+}
+
+.collapsible-html__dropdown summary {
+    padding-top: 0;
+}
+
+.collapsible-html__dropdown .pre-content{
+    margin-top: 18px;
+}

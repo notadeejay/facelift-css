@@ -1,0 +1,192 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Style Dropdown CSS Changes</title>
+    <link rel="stylesheet" href="snippet.css">
+    <link rel="stylesheet" href="../global/typography.css">
+
+</head>
+
+<body>
+<div class="contentBlock">
+    <h2>Inside the HTML Block</h2>
+    <details class="pre styled-dropdown" data-bordered="" data-collapse="true" data-color="" data-cssclass="" data-hidesummary="" data-maxheight="" data-monospace="" data-wrap="true" undefined=""><summary class="pre-title" style="font-weight: bold">Check Your Answer</summary>
+
+        <div class="pre-content" spellcheck="false">
+
+            <p>1.&nbsp;According to the<em> if </em>statement, if the price per night is less than $150, then the program will set the message to &quot;This accommodation is&nbsp;affordable for the Brooklyn neighborhood&quot; and then execute the second nested if-statement. According to the nested if-statement, if the room is either a &quot;Private room&quot; or an &quot;Entire home/apt&quot;, the program should print &quot;This {room_type} is affordable for {neighborhood}. You should book it.&quot;&nbsp;</p>
+            
+            <p>In the example above, you started with a price per night of $149 and a &quot;Private room&quot;. So your code should print:</p>
+            
+            <pre>
+            <code class="language-markdown">This Private room is affordable for Brooklyn. You should book it.</code></pre>
+            
+            <p>2.&nbsp;According to the<em> if </em>statement, if the price per night is under $150, then your program will set the message to &quot;This accommodation is&nbsp;affordable for Brooklyn&quot; and continue on to evaluate nested if-statement. If the second if-statement is False, it will execute the statement below the else-statement.&nbsp;Setting message equal to&nbsp;&quot;This accommodation is affordable, but it isn&#39;t the right type&quot;</p>
+            
+            <p>In the example below, the price per night is $149&nbsp;and the room type is &quot;Shared&quot;.</p>
+            
+            <pre>
+            <code class="language-markdown">This accommodation is affordable, but it isn't the right type.</code></pre>
+            
+            <p>3.&nbsp;According to the<em> if </em>statement, if the price per night is not under&nbsp;$150, then your program will skip right to the else-statement, and set the message to &quot;This accommodation is&nbsp;not within your budget&quot; before printing it</p>
+            
+            <p>In the example below, the price per night is $160&nbsp;and the room type is &quot;Private room&quot;.</p>
+            
+            <pre>
+            <code class="language-markdown">This accommodation is outside of your budget.</code></pre>
+            
+            <p>You full solution should look similar to this:</p>
+            
+            <pre>
+            <code class="language-python">if price_per_night &lt; 150:
+                message = f"This accommodation is affordable for {neighborhood}."
+                if room_type != "Shared":
+                    message = f"This {room_type} is affordable for {neighborhood}."
+                else:
+                    message = "This accommodation is affordable, but it isn't the right type."
+            else:
+                message = "This accommodation is outside of your budget."
+            print(message)
+            </code></pre>
+        </div>
+        </details>
+<details class="pre styled-dropdown " data-bordered="" data-collapse="false"
+    data-color="" data-cssclass="" data-hidesummary=""
+    data-maxheight="" data-monospace="" data-wrap="true" undefined="">
+    <summary class="pre-title">References
+    </summary>
+    <div class="pre-content" spellcheck="false">
+        <p>CocaCola Co. (n.d.). Share a Coke [Digital image].
+            Retrieved August 21, 2019, from
+            https://www.coca-cola.co.uk/content/dam/journey/ie/en/hidden/History/heritage/Non-Hero
+            article
+            images/the_logo_story_01122014_2013_2014_970x704.rendition.598.336.jpg</p>
+            <p>Friedman, E., &amp; Keap.com. (2018, September 27). How to
+            Calculate and Improve Your Email Click-Through Rate.
+            Retrieved from
+            https://keap.com/business-success-blog/marketing/email-marketing/how-to-calculate-email-click-through-rate</p>
+            <p>
+            Young Entrepeneur Council. (2015, April 27). 12 Key
+            Marketing Metrics You Should Already Be Tracking.
+            Retrieved&nbsp;from
+            https://blog.hubspot.com/agency/marketing-metrics-tracking
+        </p>
+    </div>
+</details>
+</div>
+<div class="contentBlock">
+    <h2>The Collapsible Snippet Block</h2>
+<details class="pre styled-dropdown collapsible-html__dropdown" data-bordered="" data-collapse="false"
+    data-color="" data-cssclass="" data-hidesummary=""
+    data-maxheight="" data-monospace="" data-wrap="true" undefined="">
+    <summary class="pre-title">Key Terms
+    </summary>
+    <div class="pre-content" spellcheck="false">
+        <p>CocaCola Co. (n.d.). Share a Coke [Digital image].
+            Retrieved August 21, 2019, from
+            https://www.coca-cola.co.uk/content/dam/journey/ie/en/hidden/History/heritage/Non-Hero
+            article
+            images/the_logo_story_01122014_2013_2014_970x704.rendition.598.336.jpg<br>
+            <br>
+            Friedman, E., &amp; Keap.com. (2018, September 27). How to
+            Calculate and Improve Your Email Click-Through Rate.
+            Retrieved from
+            https://keap.com/business-success-blog/marketing/email-marketing/how-to-calculate-email-click-through-rate<br>
+            <br>
+            Gualtieri, M. (Director). (2013, June 25).&nbsp;Eric
+            Siegel Explains How The Obama 2012 Campaign Used
+            Predictive Analytics To Influence Voters [Video file].
+            Retrieved from
+            https://www.youtube.com/watch?v=5vct0-e9xxc<br>
+            <br>
+            Infusion Soft. (2017, September 27). How to Calculate and
+            Improve Your Email Click-Through Rate. Retrieved January
+            16, 2019, from
+            https://www.infusionsoft.com/business-success-blog/marketing/email-marketing/how-to-calculate-email-click-through-rate<br>
+            <br>
+            Klipfolio. (2019). Key marketing metrics every marketer
+            should measure. Retrieved&nbsp;from
+            https://www.klipfolio.com/resources/kpi-examples/marketing<br>
+            <br>
+            Loveday, K. (2016, May 23). Share A Coke And The Metrics
+            That Brought It To Life. Retrieved from
+            https://mpk732t12016clusterb.wordpress.com/2016/05/23/share-a-coke-and-the-metrics-that-brought-it-to-life/<br>
+            ​​​<br>
+            Rutgers Business School Executive Education (Director).
+            (2018, April 27). What is the difference between a metric
+            and a KPI? [Video file]. Retrieved from
+            https://www.youtube.com/watch?v=taYxF80p4IU<br>
+            <br>
+            Taylor, J., &amp;&nbsp;Klipfolio. (2017, October 27).
+            Business metrics vs KPIs. What’s the difference?
+            Retrieved&nbsp;from
+            https://www.klipfolio.com/blog/business-metrics-vs-kpis<br>
+            <br>
+            Young Entrepeneur Council. (2015, April 27). 12 Key
+            Marketing Metrics You Should Already Be Tracking.
+            Retrieved&nbsp;from
+            https://blog.hubspot.com/agency/marketing-metrics-tracking
+        </p>
+    </div>
+</details>
+</div>
+<div class="contentBlock">
+    <details class="pre styled-dropdown collapsible-html__dropdown" data-bordered="" data-collapse="false"
+        data-color="" data-cssclass="" data-hidesummary=""
+        data-maxheight="" data-monospace="" data-wrap="true" undefined="">
+        <summary class="pre-title">Key Terms
+        </summary>
+        <div class="pre-content" spellcheck="false">
+            <p>CocaCola Co. (n.d.). Share a Coke [Digital image].
+                Retrieved August 21, 2019, from
+                https://www.coca-cola.co.uk/content/dam/journey/ie/en/hidden/History/heritage/Non-Hero
+                article
+                images/the_logo_story_01122014_2013_2014_970x704.rendition.598.336.jpg<br>
+                <br>
+                Friedman, E., &amp; Keap.com. (2018, September 27). How to
+                Calculate and Improve Your Email Click-Through Rate.
+                Retrieved from
+                https://keap.com/business-success-blog/marketing/email-marketing/how-to-calculate-email-click-through-rate<br>
+                <br>
+                Gualtieri, M. (Director). (2013, June 25).&nbsp;Eric
+                Siegel Explains How The Obama 2012 Campaign Used
+                Predictive Analytics To Influence Voters [Video file].
+                Retrieved from
+                https://www.youtube.com/watch?v=5vct0-e9xxc<br>
+                <br>
+                Infusion Soft. (2017, September 27). How to Calculate and
+                Improve Your Email Click-Through Rate. Retrieved January
+                16, 2019, from
+                https://www.infusionsoft.com/business-success-blog/marketing/email-marketing/how-to-calculate-email-click-through-rate<br>
+                <br>
+                Klipfolio. (2019). Key marketing metrics every marketer
+                should measure. Retrieved&nbsp;from
+                https://www.klipfolio.com/resources/kpi-examples/marketing<br>
+                <br>
+                Loveday, K. (2016, May 23). Share A Coke And The Metrics
+                That Brought It To Life. Retrieved from
+                https://mpk732t12016clusterb.wordpress.com/2016/05/23/share-a-coke-and-the-metrics-that-brought-it-to-life/<br>
+                ​​​<br>
+                Rutgers Business School Executive Education (Director).
+                (2018, April 27). What is the difference between a metric
+                and a KPI? [Video file]. Retrieved from
+                https://www.youtube.com/watch?v=taYxF80p4IU<br>
+                <br>
+                Taylor, J., &amp;&nbsp;Klipfolio. (2017, October 27).
+                Business metrics vs KPIs. What’s the difference?
+                Retrieved&nbsp;from
+                https://www.klipfolio.com/blog/business-metrics-vs-kpis<br>
+                <br>
+                Young Entrepeneur Council. (2015, April 27). 12 Key
+                Marketing Metrics You Should Already Be Tracking.
+                Retrieved&nbsp;from
+                https://blog.hubspot.com/agency/marketing-metrics-tracking
+            </p>
+        </div>
+    </details>
+    </div>
+</body>
+</html>
