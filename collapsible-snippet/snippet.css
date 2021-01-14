@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
     color: #1E557A;
     line-height: 19.2px;
@@ -34,14 +34,12 @@ body {
 .styled-dropdown > summary::after {
     content: '+';
     font-size: 1.8em;
-    font-weight: 600;
 }
 
 .styled-dropdown[open] > summary::after
 {
     content: '\2014';
     font-size: 1.8em;
-    font-weight: 600;
 }
 
 .styled-dropdown .pre-content {
