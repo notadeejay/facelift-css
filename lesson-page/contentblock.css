@@ -1,0 +1,11 @@
+.html h2 {
+    color: #1E557A;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.lesson-part__contentBlock {
+    width: 100%;
+    padding: 24px 0 0;
+}
+

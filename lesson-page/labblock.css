@@ -1,49 +1,19 @@
+/* Lab Block in Lessons*/
 
-.lesson-part:first-of-type .lesson-part__wrapper{
-    padding-top: 136px
-    
+.lab .knowledge-check__header h2 {
+    color:  #368FD5;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 38.4px;
 }
-
-
-.lesson-part__wrapper {
-    width: 100%;
-    margin: 0 auto;
-}
-
-
-.lesson-part--active {
-    background-color:#F5FBFE;
-}
-
-
-.lesson-part__container {
-    padding: 80px 279px;
-    margin: 0 auto;
-}
-
-.lesson-part__header {
-    border-top: 8px solid #1E557A;
-}
-
-
-article:first-of-type .lesson-part__header {
- border-top: none;
-}
-
-
-
-.lesson-part__contentBlock {
-    width: 100%;
-    padding: 24px 30px 0;
-}
-
-
 
 .lab {
-    background-color: #F4FEFE;
+    background-color: #27485D;
     margin-left: -310px;
     padding: 80px 300px;
-    width: 100%
+    width: 100%;
+    color: white;
 }
 
 .lab .block-label {
@@ -70,13 +40,16 @@ article:first-of-type .lesson-part__header {
     align-items: center;
 }
 
-.block-icon {
+.lab .block-icon {
     margin-right: 5px;
+}
+
+.lab > path {
+    fill: white;
 }
 
 .lab .label {
     font-size: 12px;
-    color: #368FD5;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -85,6 +58,14 @@ article:first-of-type .lesson-part__header {
 }
 
 
+.lab .heading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    line-height: 38.4px;
+    margin-top: 2px;
+}
 
 button.launch {
     font-family: 'Lato', sans-serif;
@@ -112,7 +93,7 @@ button.launch {
     margin: 16px auto;
 }
 
-img {
+.lab > img {
     margin: 20px;
     border-radius: 4px;
 }

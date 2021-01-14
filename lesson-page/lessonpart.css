@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Open+Sans:wght@300;400;600&display=swap');
 
+/* Lesson Part Typography*/
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-}
-
-p {
     line-height: 28px;
 }
 
@@ -23,18 +21,42 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
+    line-height: 50.4px;
+    margin: 0;
 }
 
-.section h2 {
-    color: #1E557A;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
+
+/* Lesson Part Styles */
+
+.lesson-part:first-of-type .lesson-part__wrapper{
+    padding-top: 136px
+    
 }
 
-.lab .knowledge-check__header h2 {
-    color:  #368FD5;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    line-height: 38.4px;
+
+.lesson-part__wrapper {
+    width: 100%;
+    margin: 0 auto;
 }
+
+
+.lesson-part--active {
+    background-color:#F5FBFE;
+}
+
+
+.lesson-part__container {
+    padding: 80px 279px;
+    margin: 0 auto;
+}
+
+.lesson-part__header {
+    border-top: 8px solid #1E557A;
+}
+
+
+article:first-of-type .lesson-part__header {
+ border-top: none;
+}
+
+
