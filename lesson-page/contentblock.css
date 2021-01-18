@@ -3,6 +3,14 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
 } */
+.block {
+    position: relative;
+    margin: 0;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding: 16px 0;
+}
 
 .lesson-part__contentBlock {
     width: 100%;

@@ -34,7 +34,6 @@ body {
 }
 
 
-
 .lab-header--small {
     height: 50px;
     font-size: 12px;
@@ -119,19 +118,21 @@ body {
     border-bottom: 1px solid #95D6F8;
 }
 
-.lab-exercise__subtitle, .lab-exercise__title {
-    color: #1E557A;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin: 0;
-}
 
 .lab-exercise__title {
-    letter-spacing: 1px;
-    font-size: 16px;
+font-family: "Lato" sans-serif;
+font-weight: 900;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.5px;
+color: #1E557A;
+margin: 2px 0px;
 }
 
 .lab-exercise__subtitle {
+    color: #1E557A;
+    text-transform: uppercase;
+    font-weight: 900;
     font-size: 11px;
 }
 
@@ -140,7 +141,7 @@ body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     background-color: #fff;
-    padding: 32px;
+    padding: 16px 32px;
     overflow-y: scroll;
     margin: 1px;
 }
@@ -154,9 +155,10 @@ line-height: 24px;
 .lab-exercise__content h2 {
 font-family: Lato;
 font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 30px;
+font-weight: 900;
+color: #1E557A;
+font-size: 16px;
+text-transform: uppercase;
 /* identical to box height */
 letter-spacing: 0.5px;
 color: #1E557A;
