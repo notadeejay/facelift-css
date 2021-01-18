@@ -13,16 +13,16 @@ body {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 1px;
+    margin-bottom: 2px;
 }
 
 .lesson-part__header h1 {
     color: #1E557A;
-    font-size: 42px;
+    font-size: 32px;
     font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
+    font-weight: Semi-bold;
     line-height: 50.4px;
-    margin: 0;
+    margin-top: 0;
 }
 
 
@@ -51,7 +51,8 @@ body {
 }
 
 .lesson-part__header {
-    border-top: 8px solid #1E557A;
+    border-top: 8px solid #154268;
+    border-bottom: 2px solid #154268;
 }
 
 
@@ -59,4 +60,8 @@ article:first-of-type .lesson-part__header {
  border-top: none;
 }
 
+a {
+    color: #368FD5;
+    font-weight: 700;
+}
 

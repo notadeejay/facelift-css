@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Open+Sans:wght@300;400;600&display=swap');
+
+.default-table {
+    font-family: 'Open Sans', sans-serif;
+    margin: 16px auto 32px;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    overflow: hidden;
+    table-layout: fixed;
+    border: none;
+    color: #1E557A;
+  }
+  
+  .default-table thead {
+    vertical-align: top;
+  }
+
+  .default-table tr {
+    vertical-align: top;
+    border-top: 1px solid #154268;
+    border-bottom: 1px solid #154268;
+  }
+
+  .default-table td {
+      border-left: none;
+      border-right: none;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+  }
+  
+  .default-table th {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 8px 24px;
+  }
+  
+  .default-table td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+
+  
+  
+  .default-table tr:hover {
+    background: #D6E6F1;
+  }
+  

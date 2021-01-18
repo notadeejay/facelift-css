@@ -1,13 +1,5 @@
 /* Lab Block in Lessons*/
 
-.lab .knowledge-check__header h2 {
-    color:  #368FD5;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    line-height: 38.4px;
-}
-
 .lab {
     background-color: #27485D;
     margin-left: -310px;
@@ -16,55 +8,19 @@
     color: white;
 }
 
-.lab .block-label {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    position: relative;
-}
-
-.lab .block-header {
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    position: static;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    margin-top: 8px;
-    padding: 10px 0;
-    display:flex;
-    align-items: center;
-}
-
-.lab .block-icon {
-    margin-right: 5px;
-}
-
 .lab > path {
     fill: white;
 }
 
+
+
 .lab .label {
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 800;
-    line-height: 13.2px;
+    color: white;
 }
 
-
 .lab .heading {
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    color: white;
     font-size: 32px;
-    letter-spacing: 0.5px;
-    line-height: 38.4px;
-    margin-top: 2px;
 }
 
 button.launch {
@@ -96,4 +52,8 @@ button.launch {
 .lab > img {
     margin: 20px;
     border-radius: 4px;
+}
+
+.lab a {
+   color: #039BE8
 }

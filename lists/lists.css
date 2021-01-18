@@ -1,25 +1,30 @@
-ul,
-ol {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.lesson-part__content ul,
+.lesson-part__content ol {
     line-height: 28px;
 }
 
-li {
+.lesson-part__content li {
     margin: 10px 0px;
 }
 
 
 /* Unordered Lists */
-ul {
+.lesson-part__content ul {
     list-style: none;
 }
 
 
-ul li {
+.lesson-part__content ul li {
     position: relative;
     padding-left: 20px;
 }
 
-ul li:before {
+.lesson-part__content ul li:before {
     content: "\2014";
     font-weight: 900;
     color: #1E557A;
@@ -31,7 +36,7 @@ ul li:before {
     margin-right: 8px
 }
 
-ul li li::before {
+.lesson-part__content ul li li::before {
     content: "\2022";
     font-weight: 900;
     color: #1E557A;
@@ -43,30 +48,66 @@ ul li li::before {
     margin-right: 8px
 }
 
-li > ul > li > ul > li::before {
+.lesson-part__content li > ul > li > ul > li::before {
     content: "\2014";
     color: #1E557A;
     font-size: 14px;
 }
 
 /* Ordered Lists */
-ol li {
+.lesson-part__content ol li {
     padding-left: 16px;
 }
 
-ol li::marker {
+.lesson-part__content ol li::marker {
     color: #1E557A;
     font-weight: 700;
     margin-right: 26px;
 }
 
-ol li li {
+.lesson-part__content ol li li {
     list-style: lower-alpha;
     margin-left: 16px;
 }
 
 
-ol>ol li {
+.lesson-part__content ol>ol li {
     list-style: lower-roman;
     margin-left: 10px;
+}
+
+
+/*CSS for Lists within Tables*/
+
+.lesson-part__content table td ul, .lesson-part__content table td ol {
+    margin-top: 0;
+    padding-inline-start: 16px;
+}
+
+.lesson-part__content table td li {
+  padding-left: 8px;
+  line-height: 24px;
+}
+
+.lesson-part__content table td li:first-of-type {
+    margin-top: 0;
+}
+
+.lesson-part__content table ul li:before {
+      content: '-'
+}
+
+.lesson-part__content table ul li ul {
+    padding-inline-start: 26px;
+}
+
+.lesson-part__content table ul li li, .lesson-part__content table ol li li  {
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+.lesson-part__content table ul li li::before {
+    content: "\2022";
+    color: #1E557A;
+    font-size: 14px;
 }
