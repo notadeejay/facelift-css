@@ -1,0 +1,262 @@
+.ant-modal {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+    top: 100px;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    pointer-events: none;
+}
+.ant-modal-content {
+    background: #F5FBFE;
+    border: 2px solid #1E557A;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 10px rgba(30, 85, 122, 0.12);
+    border-radius: 10px;
+    position: relative;
+    background-clip: padding-box;
+    pointer-events: auto;
+}
+
+
+.ant-modal-body {
+    padding: 23px 82px;
+    font-size: 14px;
+    line-height: 1.5715;
+    word-wrap: break-word;
+    background-image: url("./ps-logo-modal.png");
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+}
+
+.lab-congrats-wrapper {
+    padding: 63px 82px;
+    min-height: 300px;
+}
+
+.lab-congrats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* min-height: calc(100% - 24px); */
+    position: relative;
+    pointer-events: none;
+}
+
+.lab-congrats__content {
+    color: #1E557A;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    pointer-events: auto;
+    outline: 0;
+    padding: 0;
+    width: 980px;
+}
+
+.lab-congrats__panel {
+    font-family: Lato;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
+    background: none;
+    color: #1E557A;
+}
+
+
+.lab-congrats__title {
+    width: 100%;
+}
+
+.lab-congrats__title .lab-header--medium {
+    font-size: 34px;
+    line-height: 51px;
+}
+
+.lab-congrats__title .lab-header {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    font-family: "Lato",sans-serif;
+    color: #1E557A;
+    text-align: left;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.lab-congrats__body {
+    font-family: "Proxima Nova",sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+    pointer-events: auto;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-radius: 2px;
+    outline: 0;
+    padding: 30px;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.lab-congrats__panel--light {
+    margin-top: 40px;
+}
+
+.lab-congrats__form {
+    width: 70%
+}
+
+.congrats-form__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.congrats-form__rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+}
+.congrats-form__icon {
+    margin: 18px;
+    margin-left: 0;
+    width: 88px;
+    height: 48.89px;
+    background: #C9EDFB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.congrats-form__icon>span {
+    display: none;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.congrats-form__icon>input {
+    height: 0;
+    width: 0;
+    display: none;
+}
+
+.congrats-form__icon>svg {
+    height: 48.89px;
+    margin: 0 auto;
+    display: block;
+}
+
+.congrats-form textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: "Open Sans", sans-serif;
+    background: #C9EDFB;
+    border: none;
+    border-bottom: 5px solid #003685;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    height: 120px;
+    width: 100%;
+    margin: 0 auto 10px;
+    padding: 20px;
+    resize: none;
+}
+
+
+.congrats-form__note span {
+    font-style: italic;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #1E557A;
+}
+
+.congrats-form__controls {
+    width: 100%;
+    margin-top: 52px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.congrats-form__link {
+    border: none;
+    background: none;
+    font-family: "Lato", sans-serif;
+
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.5px;
+
+color: #1E557A;
+}
+
+.congrats-form__link > svg {
+        display: inline;
+        margin-right: 16px;
+        position: relative;
+        top: 0.15em;
+
+}
+

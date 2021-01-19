@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Open+Sans:wght@300;400;600&display=swap');
-
-body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 28px;
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Open+Sans:wght@300;400;600&display=swap'); */
 
 .lab-sidebar__wrapper {
     display: -webkit-box;
@@ -19,6 +13,7 @@ body {
     -webkit-box-shadow: 0 2px 30px rgba(99, 107, 117, .3);
     box-shadow: 0px 3px 10px rgba(124, 124, 124, 0.12);
 }
+
 .new-lab-page__sidebar {
     width: 400px;
     height: 100vh;
@@ -114,26 +109,31 @@ body {
 }
 
 .lab-exercise__header {
-    padding: 8px 32px;
+    padding: 43px 32px 16px;
     border-bottom: 1px solid #95D6F8;
 }
 
 
 .lab-exercise__title {
-font-family: "Lato" sans-serif;
-font-weight: 900;
-font-size: 25px;
-line-height: 30px;
-letter-spacing: 0.5px;
-color: #1E557A;
-margin: 2px 0px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E557A;
+    margin-bottom: 0;
 }
 
 .lab-exercise__subtitle {
-    color: #1E557A;
-    text-transform: uppercase;
-    font-weight: 900;
+    font-family: Lato;
+    font-weight: 800;
     font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E557A;
 }
 
 .lab-exercise__content {
@@ -148,20 +148,17 @@ margin: 2px 0px;
 
 .lab-exercise__content p {
     font-family: Open Sans;
-font-size: 14px;
-line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .lab-exercise__content h2 {
-font-family: Lato;
-font-style: normal;
-font-weight: 900;
-color: #1E557A;
-font-size: 16px;
-text-transform: uppercase;
-/* identical to box height */
-letter-spacing: 0.5px;
-color: #1E557A;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #1E557A;
 }
 
 .lab-exercise__progress-bar {
@@ -178,46 +175,6 @@ color: #1E557A;
     border: 1px solid #efefef;
 }
 
-.lab-button--blue {
-    border: 1px solid #039BE8;;
-    background-color: #039BE8;;
-    color: #fff;
-}
-
-.lab-button--medium {
-    height: 50px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-}
-
-.lab-button--radius {
-    border-radius: 5px;
-}
-
-.lab-button {
-    font-family: Lato;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    width: 100%;
-    padding: 0;
-    -webkit-transition: background-color 0.15s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
-    transition: background-color 0.15s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border: none;
-    cursor: pointer;
-}
 
 .lab-exercise__controls {
     display: -webkit-box;

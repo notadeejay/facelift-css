@@ -1,0 +1,46 @@
+.lab-button--blue {
+    border: 1px solid #039BE8;
+    ;
+    background-color: #039BE8;
+    ;
+    color: #fff;
+}
+
+.lab-button--medium {
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.lab-button--radius {
+    border-radius: 5px;
+}
+
+.lab-button {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 0;
+    -webkit-transition: background-color 0.15s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: background-color 0.15s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+.congrats-form__controls .lab-button {
+    padding: 9px 88px;
+}
