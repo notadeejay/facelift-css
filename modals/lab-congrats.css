@@ -203,7 +203,6 @@ input[type='radio'], input[type='checkbox'] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    font-family: "Open Sans", sans-serif;
     background: #C9EDFB;
     border: none;
     border-bottom: 5px solid #003685;
@@ -213,7 +212,6 @@ input[type='radio'], input[type='checkbox'] {
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    color: #000;
     height: 120px;
     width: 100%;
     margin: 0 auto 10px;
@@ -221,6 +219,11 @@ input[type='radio'], input[type='checkbox'] {
     resize: none;
 }
 
+.congrats-form__container textarea::-webkit-input-placeholder
+{
+   font-family: "Open Sans", sans-serif;
+   color: #333;
+}
 
 .congrats-form__note span {
     font-style: italic;
@@ -259,4 +262,5 @@ color: #1E557A;
         top: 0.15em;
 
 }
+
 
