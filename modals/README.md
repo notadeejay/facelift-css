@@ -1,5 +1,14 @@
 ## Lesson Modal
 
+Switch the clock SVG with the following:
+
+```html
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="7.5" cy="7.5" r="7.5" fill="black"/>
+<path d="M7 3.5V8.5L11 10" stroke="#C9EDFB" stroke-width="1.2"/>
+</svg>
+
+```
 
 ## Lab Modal
 
@@ -9,29 +18,29 @@ Remove the `lab-congrats__embed` div
 
 ```html
 <div class="lab-congrats__embed">
-                                <div class="ff-container ff-ready ff-inactive"
-                                    tabindex="0">
-                                    <div class="ff-overlay">
-                                    </div><canvas
-                                        class="ff-canvas ff-canvas-ready"
-                                        width="490" height="368">
-                                    </canvas><img alt=""
-                                        src="/e5ab717f39cfbb99638bad3b3e57b98e.gif"
-                                        data-ff="true"
-                                        class="ff-image">
-                                </div>
-                            </div>
+    <div class="ff-container ff-ready ff-inactive"
+        tabindex="0">
+        <div class="ff-overlay">
+        </div><canvas
+            class="ff-canvas ff-canvas-ready"
+            width="490" height="368">
+        </canvas><img alt=""
+            src="/e5ab717f39cfbb99638bad3b3e57b98e.gif"
+            data-ff="true"
+            class="ff-image">
+    </div>
+</div>
 ```
 
 Remove the `lab-congrats__body` div
 ```html
  <div class="lab-congrats__body">
-                                <h3
-                                    class="lab-heading lab-heading--medium-plus lab-heading-- lab-heading--big-space">
-                                    <span>Congratulations on
-                                        completing this lab!</span>
-                                </h3>
-                            </div>
+    <h3
+        class="lab-heading lab-heading--medium-plus lab-heading-- lab-heading--big-space">
+        <span>Congratulations on
+            completing this lab!</span>
+    </h3>
+</div>
 ```
 
 Update the height and width of the `ant-modal` div to the following:

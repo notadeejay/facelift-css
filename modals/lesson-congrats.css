@@ -1,6 +1,6 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+/* removing outline for the sake of my own HTML - can ignore*/
+button {
+    outline:none;
 }
 
 .ant-modal-content {
@@ -27,6 +27,9 @@ body {
 }
 
 .lesson-congrats {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -173,6 +176,7 @@ body {
     letter-spacing: 0.5px;
 }
 
+
 .lesson-congrats__lesson h6 {
     margin: 8px;
 }
@@ -251,4 +255,5 @@ body {
     text-decoration: none;
     border: none;
     background: none;
+    cursor: pointer;
 }

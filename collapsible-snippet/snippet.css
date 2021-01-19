@@ -1,10 +1,6 @@
-body {
-    max-width: 900px;
-    margin: 0 auto;
-}
 
 .contentBlock {
-  padding: 18px 30px;
+  padding: 24px 30px;
 }
 
 .styled-dropdown {
@@ -51,4 +47,8 @@ body {
 
 .lab-exercise .styled-dropdown .pre-content{
     padding: 18px;
+}
+
+.lab-exercise .styled-dropdown summary {
+        padding: 12px 8px;
 }

@@ -14,7 +14,8 @@
 
 .lesson-part__contentBlock {
     width: 100%;
-    padding: 36px 0 0;
+    padding: 24px 0px 0;
+    
 }
 
 .block h2 {
@@ -80,6 +81,14 @@ letter-spacing: 1px;
 line-height: 19.2px;
 }
 
+.lesson-part .collapsible_html {
+    margin-top: -50px;
+}
+
+
+.lab-exercise .collapsible_html {
+    margin-top: -30px;
+}
 
 /* Comment Thread Blocks*/
 
