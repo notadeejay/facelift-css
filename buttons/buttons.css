@@ -74,6 +74,133 @@ button {
     border-radius: 4px;
 }
 
+button.launch {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    -webkit-transition: background-color 300ms, color 300ms;
+    transition: background-color 300ms, color 300ms;
+    display: block;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #368FD5;
+    margin: 88px auto 32px;
+}
+
+
+
+
+.button-standard--long {
+    width: auto;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.button-standard--long {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 300px;
+    height: 48px;
+    background-color: transparent;
+    -webkit-transition: background-color 300ms, color 300ms;
+    transition: background-color 300ms, color 300ms;
+    display: block;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #368FD5;
+}
+
+.button-standard--outlined {
+    background-color: transparent;
+    color: #368FD5;
+    border: 2px solid #368FD5;
+}
+
+/*Go to Top Button*/
+.lesson-part__wrapper.part-focused .lesson-part__topButton {
+    display: block;
+}
+
+.lesson-part__topButton {
+    position: absolute;
+    right: auto;
+    top: 0;
+    left: calc(100% + 25px);
+}
+
+.lesson-part__topButton .top-button {
+    top: 200px;
+}
+
+.top-button {
+    position: fixed;
+    z-index: 1;
+    background: none;
+    border: 2.5px solid #95D6F8;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    padding: 22px 23px;
+    display: flex;
+    text-decoration: none;
+    right: 79px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.top-button__label {
+    display: none;
+}
+
+
+.top-button:hover .top-button__label{
+    display:inline-block;
+    font-family: 'Lato', sans-serif;
+    margin-left: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #039BE8;
+}
+
+.top-button:hover {
+    width: auto;
+    border-radius: 30px;
+   vertical-align: middle;
+}
+
+
+
 /*Still need to add the following buttons:
 - Launch button
 - Go to current button

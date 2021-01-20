@@ -38,6 +38,11 @@
     font-size: 1.8em;
 }
 
+.lesson-part--active .styled-dropdown .pre-content {
+    background-color: #F5FBFE;
+    padding: 24px 84px;
+}
+
 .styled-dropdown .pre-content {
     background-color: white;
     padding: 24px 84px;

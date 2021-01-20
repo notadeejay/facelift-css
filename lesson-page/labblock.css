@@ -23,31 +23,6 @@
     font-size: 32px;
 }
 
-button.launch {
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    text-align: center;
-    width: 300px;
-    height: 40px;
-    background-color: transparent;
-    -webkit-transition: background-color 300ms, color 300ms;
-    transition: background-color 300ms, color 300ms;
-    display: block;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    border-radius: 4px;
-    border: none;
-    color: #fff;
-    background-color: #368FD5;
-    margin: 16px auto;
-}
 
 .lab > img {
     margin: 20px;

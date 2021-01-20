@@ -7,22 +7,31 @@ body {
     line-height: 28px;
 }
 
+
+.lesson-part__header {
+    border-top: 8px solid #154268;
+    border-bottom: 2px solid #154268;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
 .lesson-part__header h3 {
     color: #1E557A;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 1px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 
 .lesson-part__header h1 {
     color: #1E557A;
     font-size: 32px;
     font-family: 'Lato', sans-serif;
-    font-weight: Semi-bold;
+    font-weight: 700;
     line-height: 50.4px;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -46,21 +55,28 @@ body {
 
 
 .lesson-part__container {
-    padding: 80px 279px;
+    padding: 80px 279px 0px;
     margin: 0 auto;
 }
 
-.lesson-part__header {
-    border-top: 8px solid #154268;
-    border-bottom: 2px solid #154268;
-}
 
 
 article:first-of-type .lesson-part__header {
  border-top: none;
 }
 
-a {
+.lesson-part a {
     color: #368FD5;
     font-weight: 700;
+}
+
+.lesson-part__footer {
+    padding: 88px 0;
+    min-height: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }

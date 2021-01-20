@@ -82,8 +82,10 @@ line-height: 19.2px;
 }
 
 .lesson-part .collapsible_html {
-    margin-top: -50px;
+    margin-top: -40px;
 }
+
+
 
 
 .lab-exercise .collapsible_html {
@@ -108,4 +110,15 @@ line-height: 19.2px;
     position: relative;
 }
 
-
+.block figcaption {
+    font-family: Open Sans;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #1E557A;
+    margin-top: 16px;
+}
+ .block img {
+    margin-top: 16px;
+}
