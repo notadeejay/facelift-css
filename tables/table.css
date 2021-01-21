@@ -37,12 +37,20 @@
     border-right: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 8px 8px 24px;
+    padding: 8px 20px 26px 0px;
+  }
+
+  .default-table th+th {
+    padding: 8px 20px 26px;
   }
   
-  .default-table td, th {
+  .default-table td {
+   padding: 16px 2px 16px 0px;
+  }
+  
+  .default-table td+td, th {
     text-align: left;
-    padding: 8px;
+    padding: 16px 20px;
   }
   
 
@@ -50,5 +58,7 @@
   
   .default-table tr:hover {
     background: #D6E6F1;
+    border-top: 2px solid #154268;
+    border-bottom: 2px solid #154268;
   }
   
