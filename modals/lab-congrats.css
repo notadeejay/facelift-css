@@ -1,3 +1,4 @@
+/* Nothing changed in .ant-modal - just needed for my own ability to see what it wil llook like*/
 .ant-modal {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -17,6 +18,9 @@
     padding-bottom: 24px;
     pointer-events: none;
 }
+
+
+/*Adjusted background color, border and box shadow*/
 .ant-modal-content {
     background: #F5FBFE;
     border: 2px solid #1E557A;
@@ -29,21 +33,22 @@
 }
 
 
+/*Added background image and positioned it, adjusted padding and font-size as well (I think?)*/
 .ant-modal-body {
     padding: 23px 82px;
-    font-size: 14px;
-    line-height: 1.5715;
     word-wrap: break-word;
     background-image: url("./ps-logo-modal.png");
     background-repeat: no-repeat;
     background-position: 100% 10%;
 }
 
+/*Adjusted padding */
 .lab-congrats-wrapper {
     padding: 63px 82px;
     min-height: 300px;
 }
 
+/*I dont believe anything changed here, was just for the purposes of my own coding*/
 .lab-congrats {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -51,11 +56,11 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    /* min-height: calc(100% - 24px); */
     position: relative;
     pointer-events: none;
 }
 
+/*Added font color, adjusted width potentially*/
 .lab-congrats__content {
     color: #1E557A;
     display: -webkit-box;
@@ -69,8 +74,9 @@
     width: 980px;
 }
 
+/*New font family, new font color*/
 .lab-congrats__panel {
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -90,18 +96,20 @@
     width: 100%;
 }
 
+/* New font-size and line-height*/
 .lab-congrats__title .lab-header--medium {
     font-size: 34px;
     line-height: 51px;
 }
 
+/*Pretty much new everything here, except the display / flexbox*/
 .lab-congrats__title .lab-header {
     font-weight: 800;
     font-size: 36px;
     line-height: 43px;
     letter-spacing: 1.3px;
     text-transform: uppercase;
-    font-family: "Lato",sans-serif;
+    font-family: "Lato", sans-serif;
     color: #1E557A;
     text-align: left;
     width: 100%;
@@ -117,14 +125,17 @@
     align-items: center;
 }
 
+/*Adjusted margin*/
 .lab-congrats__panel--light {
     margin-top: 40px;
 }
 
+/*Adjusted width*/
 .lab-congrats__form {
     width: 70%
 }
 
+/*New everything*/
 .congrats-form__title {
     font-weight: 600;
     font-size: 16px;
@@ -133,6 +144,7 @@
     color: #000000;
 }
 
+/*Adjusted flex to left align the boxes*/
 .congrats-form__rating {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -141,6 +153,8 @@
     -ms-flex-pack: flex-start;
     justify-content: flex-start;
 }
+
+/*All new for the rating boxes*/
 .congrats-form__icon {
     margin: 18px;
     margin-left: 0;
@@ -151,28 +165,35 @@
     border-radius: 3px;
 }
 
+/*No changes to the following few classes, were for display purposes only*/
 .congrats-form__icon>span {
     display: none;
 }
 
-input[type='radio'], input[type='checkbox'] {
+/*Again, just for my own code, no changes*/
+input[type='radio'],
+input[type='checkbox'] {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
 }
 
+
+/*Again, just for my own code, no changes*/
 .congrats-form__icon>input {
     height: 0;
     width: 0;
     display: none;
 }
 
+/*Adjusting the size of the SVG*/
 .congrats-form__icon>svg {
     height: 48.89px;
     margin: 0 auto;
     display: block;
 }
 
+/*Changed background, bottom border, padding, height, font size... pretty much everything*/
 .congrats-form textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -189,24 +210,32 @@ input[type='radio'], input[type='checkbox'] {
     height: 120px;
     width: 100%;
     margin: 0 auto 10px;
-    padding: 20px;
+    padding: 16px;
     resize: none;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    outline:none;
 }
 
-.congrats-form__container textarea::-webkit-input-placeholder
-{
-   font-family: "Open Sans", sans-serif;
-   color: #333;
+
+/*Added style to placeholder*/
+.congrats-form__container textarea::-webkit-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
 }
 
-.congrats-form__note span {
+/*Pretty much everything new*/
+.congrats-form__note {
+    font-family: "Lato", sans-serif;
     font-style: italic;
     font-size: 13px;
     line-height: 16px;
+    font-weight: 400;
     letter-spacing: 0.5px;
     color: #1E557A;
 }
 
+/*Adjusted the top margin and flex*/
 .congrats-form__controls {
     width: 100%;
     margin-top: 52px;
@@ -216,25 +245,23 @@ input[type='radio'], input[type='checkbox'] {
     justify-content: space-between;
 }
 
+/*Everything changed here*/
 .congrats-form__link {
     border: none;
     background: none;
     font-family: "Lato", sans-serif;
-
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.5px;
-
-color: #1E557A;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #1E557A;
 }
 
-.congrats-form__link > svg {
-        display: inline;
-        margin-right: 16px;
-        position: relative;
-        top: 0.15em;
+/*Added styling for new svg*/
+.congrats-form__link svg {
+    display: inline;
+    margin-right: 16px;
+    position: relative;
+    top: 0.15em;
 
 }
-
-

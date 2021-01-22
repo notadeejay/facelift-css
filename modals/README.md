@@ -1,6 +1,10 @@
+## Congrats Modals
+
+- Will need to `ps-logo-modal.png` image for the background of BOTH modals
+
 ## Lesson Modal
 
-Switch the clock SVG with the following:
+- Switch the clock SVG with the following:
 
 ```html
 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -9,6 +13,8 @@ Switch the clock SVG with the following:
 </svg>
 
 ```
+
+- Remove the Module Name and SVG that goes along with it.
 
 ## Lab Modal
 

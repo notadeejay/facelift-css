@@ -3,6 +3,7 @@ button {
     outline:none;
 }
 
+/*Adjusted width, height, background, border and border radius*/
 .ant-modal-content {
     position: absolute;
     width: 542px;
@@ -15,6 +16,7 @@ button {
     border-radius: 8px;
 }
 
+/*Can ignore - for my own HTML, no changes*/
 .ant-modal-body {
     padding: 24px;
     font-size: 14px;
@@ -26,6 +28,7 @@ button {
     display: block;
 }
 
+/*Added font family , adjusted font-size and line height*/
 .lesson-congrats {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -41,6 +44,7 @@ button {
     height: 100%;
 }
 
+/*All new styling*/
 .lesson-congrats__title {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -52,7 +56,7 @@ button {
     color: #1E557A;
 }
 
-
+/* Font family, font-size*/
 .lesson-congrats__content {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -83,6 +87,7 @@ button {
     flex-direction: column;
 }
 
+/*Adjusted padding, potentially changed the flex, added the background image*/
 .lesson-congrats__header {
     padding: 53px 53px 0px;
     display: -webkit-box;
@@ -109,8 +114,8 @@ button {
     flex-direction: column;
 }
 
-.lesson-congrats__description-text,
-.lesson-congrats__module-title {
+/*All new styles*/
+.lesson-congrats__description-text {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: 16px;
@@ -119,38 +124,30 @@ button {
     font-weight: 600;
 }
 
-.lesson-congrats__module-title {
-    font-size: 14px
-}
-
+/*Adjusted the padding on the list*/
 .lesson-congrats__list {
     padding-inline-start: 20px;
 }
 
+/*Added color to the marker*/
 .lesson-congrats__list-item::marker {
     color: #1E557A;
 }
 
+/*ADjusted passing*/
 .lesson-congrats__overview {
     padding: 0px 53px 22px;
 }
 
-.lesson-congrats__module-title {
-    margin: 0;
-    margin-bottom: 5px;
-}
 
-.lesson-congrats__module-title>svg,
+/*Spacing*/
 .lesson-congrats__lesson-description>svg {
     margin-right: 5px;
 }
 
-.lesson-congrats__module-heading {
-    font-size: 14px;
-    font-weight: 300;
-    margin: 0;
-}
 
+
+/*All new*/
 .lesson-congrats__next-step {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -158,39 +155,40 @@ button {
     background: #C9EDFB;
     box-shadow: 0px 3px 10px rgba(201, 237, 251, 0.12);
     border-radius: 8px;
-    padding: 16px 22px;
+    padding: 13px 24px 21px;
     margin-top: 16px;
 }
 
+/*No change here*/
 .lesson-congrats__lesson {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 42%;
     flex: 1 0 42%;
 }
 
+/*All new*/
 .lesson-congrats__lesson-title {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: #1E557A;
-    font-size: 13px;
-    letter-spacing: 0.5px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    margin: 0px 8px 16px;
 }
 
 
-.lesson-congrats__lesson h6 {
-    margin: 8px;
-}
-
-
+/*All new*/
 .lesson-congrats__lesson-heading {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 28px;
-    margin-top: 20px;
+    letter-spacing: 0.8px;
+    margin: 2px 8px 8px;
 }
 
+/*Adjusted font-weight and size*/
 .lesson-congrats__lesson-description {
     font-weight: 600;
     font-size: 13px;
@@ -202,6 +200,7 @@ button {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin: 8px 8px 0px
 }
 
 .lesson-congrats__actions {
@@ -215,6 +214,7 @@ button {
     align-content: center;
 }
 
+/*Adjusted background color, width, height, margin and border radius. Added flex to center the SVG*/
 .lesson-congrats__actions-button {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -237,12 +237,15 @@ button {
     width: 56px;
     height: 56px;
     text-decoration: none;
+    margin-top: 4px;
 }
 
+/*Adding box shadown to the button*/
 .lesson-congrats__actions-button:hover {
     box-shadow: 0px 3px 10px rgba(1, 95, 185, 0.12);
 }
 
+/*All new styling*/
 .lesson-congrats__actions-link {
     margin: 22px auto;
     display: block;

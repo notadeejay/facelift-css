@@ -50,8 +50,8 @@
 
 /* Specific Adjustments for Dropdowns in the Lab Sidebar*/
 
-.lab-exercise .styled-dropdown .pre-content{
-    padding: 18px;
+.lab-exercise .styled-dropdown .pre-content {
+    padding: 12px 10px;
 }
 
 .lab-exercise .styled-dropdown summary {

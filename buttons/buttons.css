@@ -100,10 +100,12 @@ button.launch {
     margin: 88px auto 32px;
 }
 
+.button-standard:hover {
+    box-shadow: 0px 3px 10px rgba(1, 95, 185, 0.12);
+}
 
 
-
-.button-standard--long {
+ .button-standard--long {
     width: auto;
     font-weight: 600;
     font-size: 16px;
@@ -112,7 +114,7 @@ button.launch {
     letter-spacing: 0;
 }
 
-.button-standard--long {
+ .button-standard--long {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -137,7 +139,7 @@ button.launch {
     background-color: #368FD5;
 }
 
-.button-standard--outlined {
+ .button-standard--outlined {
     background-color: transparent;
     color: #368FD5;
     border: 2px solid #368FD5;
@@ -190,7 +192,7 @@ button.launch {
 }
 
 .top-button:hover {
-    width: 200px;
+    width: auto;
     border-radius: 30px;
     vertical-align: middle;
 }

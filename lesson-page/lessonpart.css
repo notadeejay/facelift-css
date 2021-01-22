@@ -12,7 +12,7 @@ body {
     border-top: 8px solid #154268;
     border-bottom: 2px solid #154268;
     padding-top: 32px;
-    padding-bottom: 24px;
+    padding-bottom: 16px;
 }
 
 .lesson-part__header h3 {
@@ -21,7 +21,7 @@ body {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 1px;
-    margin-bottom: 4px;
+    margin: 0;
 }
 
 .lesson-part__header h1 {
@@ -55,15 +55,15 @@ body {
 
 
 .lesson-part__container {
-    padding: 80px 242px 0px;
+    padding: 80px 279px 0px;
     margin: 0 auto;
 }
 
 
 
-article:first-of-type .lesson-part__header {
+/* article:first-of-type .lesson-part__header {
  border-top: none;
-}
+} */
 
 .lesson-part a {
     color: #368FD5;
