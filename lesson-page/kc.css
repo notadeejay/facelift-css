@@ -30,12 +30,7 @@
     list-style-type: none;
 }
 
-.knowledge-check__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    border-bottom: 1.5px solid #368FD5;
-}
+
 
 .knowledge-check__header .heading {
     margin: 0;
@@ -112,12 +107,19 @@
     width: 0;
 }
 
-
+.question input[type="radio"]:hover+label,
+.question input[type="checkbox"]:hover+label {
+    border: 2px solid #039BE8;
+    background:#1E557A;
+}
 
 .question input[type="radio"]:checked+label,
 .question input[type="checkbox"]:checked+label {
     border: 2px solid #039BE8;
+    background: #039BE8;
+    color:  #FFF;
 }
+
 
 
 .question label {
@@ -144,6 +146,21 @@
     margin: 8px 20px 8px 0px;
 }
 
+.question label.false {
+    border: none;
+    background: #E98C73;
+    opacity: 0.8;
+    border: 2px solid #E98C73;
+    color: #7A0D1E;
+}
+
+
+
+.question label.true {
+    background: #C9EDFB;
+    border: 1.5px solid #C9EDFB;
+    color: #039BE8;
+}
 
 
 .question p {
@@ -227,14 +244,26 @@ form .textarea .cke_editable[contenteditable='true'] {
         padding: 0 40px;
         margin-top: 24px;
     }
+    .quiz .knowledge-check__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        
+    }
 }
+
+
+.quiz .knowledge-check__header {
+    border-bottom: 1.5px solid #368FD5;
+}
+
 
 @media screen and (max-width: 768px) {
     .quiz {
         padding: 8px 20px;
     }
 
-    .knowledge-check__header {
+    .quiz .knowledge-check__header {
         flex-direction: column;
         align-items: center;
         justify-content: center;
