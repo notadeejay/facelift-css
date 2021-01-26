@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Open+Sans:wght@300;400;600&display=swap');
 
+.section table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
 .default-table {
     font-family: 'Open Sans', sans-serif;
-    margin: 16px auto 32px;
+    margin: 40px auto;
     width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
@@ -10,6 +16,13 @@
     table-layout: fixed;
     border: none;
     color: #1E557A;
+  }
+
+  h2+.default-table,
+  h3+.default-table,
+  h4+.default-table {
+    margin: 22px auto 32px;
+
   }
   
   .default-table thead {
@@ -37,23 +50,13 @@
     border-right: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 8px 20px 26px 0px;
+    padding: 8px 20px 26px 4px;
   }
 
-  .default-table th+th {
-    padding: 8px 20px 26px;
-  }
   
   .default-table td {
-   padding: 16px 2px 16px 0px;
+   padding: 16px 2px 16px 4px;
   }
-  
-  .default-table td+td, th {
-    text-align: left;
-    padding: 16px 20px;
-  }
-  
-
   
   
   .default-table tr:hover {
@@ -61,4 +64,37 @@
     border-top: 2px solid #154268;
     border-bottom: 2px solid #154268;
   }
+
+  /*Tables in the Lab Sidebar*/
   
+  .lab-exercise table td,
+  .lab-exercise table th {
+    font-size: 12px;
+  }
+
+  .lab-exercise .default-table th {
+    padding: 8px 8px 18px 2px;
+  }
+
+  .lab-exercise .default-table td, th {
+    text-align: left;
+    padding: 6px 2px;
+}
+
+/*Tables in the Dark Background Blocks*/
+
+.block.lab .default-table {
+  color: #FFF;
+}
+
+.block.lab .default-table tr {
+  color: white;
+  border-top: 2px solid #FFF;
+  border-bottom: 2px solid #FFF;
+}
+
+.block.lab .default-table tr:hover {
+    background: #183549;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}

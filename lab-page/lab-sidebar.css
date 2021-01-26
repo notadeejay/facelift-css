@@ -153,13 +153,17 @@
     line-height: 24px;
 }
 
-.lab-exercise__content h2 {
+.lab-exercise .html__title {
     font-family: Lato;
     font-weight: 600;
     font-size: 25px;
     line-height: 30px;
     letter-spacing: 0.5px;
     color: #1E557A;
+}
+
+.html__title+div {
+    margin-top: -10px;
 }
 
 .lab-exercise__progress-bar {
@@ -185,3 +189,6 @@
     background-color: #FFFFFF;
 }
 
+.lab-exercise .collapsible_html {
+    margin-top: -32px;
+}

@@ -105,7 +105,7 @@ aside {
     line-height: 16.8px;
 }
 
-.code {
+code.code {
  font-family: 'Roboto Mono', monospace;
  padding: 2px 4px;
  background-color: #EFEFEF;
@@ -114,12 +114,12 @@ aside {
  font-weight: 400;
 }
 
-.sql {
+.code.sql {
   color: #0171B7;
   font-weight: 600;
 }
 
-.excel {
+.code.excel {
   color: #2A7A1F;
   font-weight: 600;
 }

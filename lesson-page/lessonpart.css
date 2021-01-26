@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Open+Sans:wght@300;400;600&display=swap');
 
-/* Lesson Part Typography*/
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 28px;
+.lesson-part {
+    width: 100%;
 }
-
 
 .lesson-part__header {
     border-top: 8px solid #154268;
@@ -37,17 +33,24 @@ body {
 
 /* Lesson Part Styles */
 
-.lesson-part:first-of-type .lesson-part__wrapper{
+.lesson-part:first-of-type {
     padding-top: 136px
     
 }
 
 
+@media screen and (min-width: 992px) {
+.lesson-part__wrapper {
+    max-width: 960px;
+    padding: 100px 0 70px;
+}
+}
+
 .lesson-part__wrapper {
     width: 100%;
     margin: 0 auto;
+    padding: 100px 12px 0px;
 }
-
 
 .lesson-part--active {
     background-color:#F5FBFE;
@@ -55,7 +58,6 @@ body {
 
 
 .lesson-part__container {
-    padding: 80px 279px 0px;
     margin: 0 auto;
 }
 

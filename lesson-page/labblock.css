@@ -2,11 +2,24 @@
 
 .lab {
     background-color: #27485D;
-    margin-left: -310px;
-    padding: 80px 300px;
     width: 100%;
     color: white;
 }
+
+@media screen and (max-width: 1279px) {
+.lab {
+    margin-left: -20px;
+    padding: 80px 20px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .lab {
+            margin-left: -240px;
+            padding: 80px 240px;
+        }
+}
+    
 
 .lab > path {
     fill: white;
