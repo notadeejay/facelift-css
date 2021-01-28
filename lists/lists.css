@@ -3,8 +3,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/*Currently scope to lesson parts for testing, but should also include the lab sidebar*/
 .lesson-part__content ul,
-.lesson-part__content ol {
+.lesson-part__content ol
+ {
     line-height: 28px;
     padding-inline-start: 20px;
 }

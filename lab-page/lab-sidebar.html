@@ -1,20 +1,23 @@
-
 <link rel="stylesheet" href="../collapsible-snippet/snippet.css">
 <link rel="stylesheet" href="../lesson-page/contentblock.css">
 <link rel="stylesheet" href="../lesson-page/lessonpart.css">
 <link rel="stylesheet" href="lab-sidebar.css">
 <link rel="stylesheet" href="../buttons/buttons.css">
+<link rel="stylesheet" href="../lesson-page/kc.css">
+<link rel="stylesheet" href="../styles-dropdown/styles.css">
+<link rel="stylesheet" href="../lists/lists.css">
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Open+Sans:wght@300;400;600&display=swap');
-    body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 28px;
-}
 
+    body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        line-height: 28px;
+    }
 </style>
+
 <body>
-    <aside class="new-lab-page__sidebar">
+    <!-- <aside class="new-lab-page__sidebar">
         <div class="lab-sidebar">
             <div class="lab-sidebar__wrapper" id="labSidebarWrapper">
                 <header class="lab-sidebar__header">
@@ -508,6 +511,1436 @@
                         <div class="lab-exercise__controls"><button type="button" class="lab-button lab-button--medium lab-button--outline  lab-button--radius previous-step-button"><span>Previous</span></button><button
                                 type="button"
                                 class="lab-button lab-button--medium lab-button--blue  lab-button--radius next-step-button"><span>Next</span></button>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </aside> -->
+    <aside class="new-lab-page__sidebar">
+        <div class="lab-sidebar">
+            <div class="lab-sidebar__wrapper" id="labSidebarWrapper">
+                <header class="lab-sidebar__header">
+                    <div class="lab-header lab-header--small">
+                        <div class="lab-header__back"><button
+                                type="button"
+                                class="lab-header__button"
+                                aria-label="Back"><svg width="20"
+                                    height="7" viewBox="0 0 20 7"
+                                    fill="none">
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M5.002 4.483v1.404c.031.293-.055.597-.26.822a.854.854 0 01-1.285 0L.467 4.365A.912.912 0 01.3 4.235l-.034-.027A1.044 1.044 0 010 3.5c0-.111.016-.223.05-.329a.972.972 0 01.481-.587L3.457.292a.854.854 0 011.285 0c.205.224.291.528.26.82v1.381h14.09c.501 0 .908.446.908.995 0 .55-.407.995-.909.995H5.001z"
+                                        fill="#fff"></path>
+                                </svg></button></div>
+                        <div
+                            class="lab-header__title  lab-header__title--left">
+                            WHERE Lab</div>
+                    </div>
+                </header>
+                <article class="lab-exercise">
+                    <header class="lab-exercise__header">
+                        <h3 class="lab-exercise__title">WHERE<div
+                                class="clearfix"></div>
+                        </h3>
+                    </header>
+                    <div class="lab-exercise__content">
+                        <div class="popup-image-wrapper enabled">
+                            <div class="popup-table-wrapper enabled">
+                                <div
+                                    name="block_485ff632-f75a-4614-839e-739e40701cc1">
+                                    <div>
+                                        <div class="block html"
+                                            name="block_485ff632-f75a-4614-839e-739e40701cc1">
+                                            <div class="section">
+                                                <div class="html__title">
+                                                    <h2>WHERE Lab</h2>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <p>Previously,
+                                                            your boss
+                                                            had you
+                                                            get
+                                                            familiar
+                                                            with the
+                                                            <em>employees
+                                                            </em>table.<strong>&nbsp;</strong>She
+                                                            has added
+                                                            some more
+                                                            questions
+                                                            that she
+                                                            would like
+                                                            you to
+                                                            answer to
+                                                            further
+                                                            your
+                                                            familiarity
+                                                            with the
+                                                            data.</p>
+
+                                                        <p>Answer your
+                                                            boss's
+                                                            questions
+                                                            to further
+                                                            explore
+                                                            the
+                                                            employees
+                                                            dataset.
+                                                        </p>
+
+                                                        <p>Let's get
+                                                            started!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_5858d141-8800-4007-8e55-e2f5619fb75b">
+                                    <div>
+                                        <div class="block html"
+                                            name="block_5858d141-8800-4007-8e55-e2f5619fb75b">
+                                            <div class="section">
+                                                <div class="html__title">
+                                                
+                                                        <h2
+    >
+                                                            Step 1.
+                                                            Prepare
+                                                            MySQL
+                                                            Workbench
+                                                        </h2>
+                                       
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <p>Before you
+                                                            query&nbsp;anything,
+                                                            there are
+                                                            a few
+                                                            things you
+                                                            should do.
+                                                        </p>
+
+                                                        <p>1. Move
+                                                            to&nbsp;the
+                                                            Navigator
+                                                            section of
+                                                            MySQL and
+                                                            click the
+                                                            <strong>&gt;</strong>&nbsp;<strong>Tables
+                                                            </strong>folder&nbsp;in
+                                                            your
+                                                            navigator
+                                                            to view
+                                                            the tables
+                                                            you will
+                                                            be able to
+                                                            access in
+                                                            this Lab.
+                                                        </p>
+
+                                                        <p
+                                                            style="text-align:center">
+                                                            <img alt="SQL navigator bar with folders labeled Tables, Views, Stored Procedures, and Functions. &quot;Tables&quot; is highlighted in the sidebar to call attention to it."
+                                                                src="/rte/content/app.pathstream.com/00af46dc-549e-46a8-9f85-e453e7a70db8/image.png"
+                                                                tabindex="0">
+                                                        </p>
+
+                                                        <p>2. When
+                                                            querying,
+                                                            the&nbsp;sections
+                                                            of&nbsp;MySQL
+                                                            may get a
+                                                            little
+                                                            crowded,
+                                                            and you
+                                                            may want
+                                                            to adjust
+                                                            the size.
+                                                            Click
+                                                            the&nbsp;GIF
+                                                            below to
+                                                            watch and
+                                                            learn how.
+                                                        </p>
+
+                                                        <p
+                                                            style="text-align:center">
+                                                            <div class="ff-container ff-ready ff-inactive"
+                                                                tabindex="0">
+                                                                <div
+                                                                    class="ff-overlay">
+                                                                </div>
+                                                                <canvas
+                                                                    class="ff-canvas ff-canvas-ready"
+                                                                    width="251"
+                                                                    height="130">
+                                                                </canvas><img
+                                                                    alt="Click and drag the edges of the view windows in MySQL to resize your work space"
+                                                                    class="off ff-image"
+                                                                    src="/rte/content/app.pathstream.com/ee5462ba-7b10-4de2-b5a6-7374da47a29f/gif4.gif"
+                                                                    data-ff="true">
+                                                            </div>
+                                                        </p>
+
+                                                        <p>3. Now move
+                                                            over to
+                                                            the
+                                                            <strong>SQL
+                                                                Query
+                                                                Tab</strong>.<strong>
+                                                            </strong>This
+                                                            is where
+                                                            you will
+                                                            write your
+                                                            queries in
+                                                            response
+                                                            to the
+                                                            questions
+                                                            below.&nbsp;
+                                                        </p>
+
+                                                        <p>You will
+                                                            enter a
+                                                            query for
+                                                            each
+                                                            question
+                                                            directly
+                                                            in MySQL
+                                                            workbench.
+                                                            Once you
+                                                            run your
+                                                            query and
+                                                            get a
+                                                            result,
+                                                            you will
+                                                            use the
+                                                            Knowledge
+                                                            Check&nbsp;below
+                                                            to check
+                                                            your
+                                                            work.&nbsp;&nbsp;
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_44c24c87-e211-4e83-b9cf-6102c42d8dd6">
+                                    <div>
+                                        <div class="block collapsible_html"
+                                            name="block_44c24c87-e211-4e83-b9cf-6102c42d8dd6">
+                                            <div class="section">
+                                                <details class="styled-dropdown">
+                                                    <summary>
+                                                        Instructions
+                                                        to Run Queries
+                                                    </summary>
+                                                    <div>
+                                                        <div
+                                                            class="pre-content">
+                                                            <p>At the
+                                                                top of
+                                                                the
+                                                                SQL
+                                                                Query
+                                                                Tab
+                                                                you
+                                                                will
+                                                                see
+                                                                three
+                                                                lightning
+                                                                bolts.
+                                                                You
+                                                                only
+                                                                need
+                                                                to
+                                                                focus
+                                                                on the
+                                                                first
+                                                                two.
+                                                            </p>
+
+                                                            <p
+                                                                style="text-align:center">
+                                                                <img alt="The &quot;execute statements&quot; and &quot;execute statement&quot; buttons from the MySQL query tool bar."
+                                                                    height="134"
+                                                                    src="/rte/content/app.pathstream.com/264b54e6-5517-42ce-93f8-e970e3409afe/ScreenShot2019-05-20at31536AM.png"
+                                                                    tabindex="0"
+                                                                    width="512">
+                                                            </p>
+
+                                                            <ul>
+                                                                <li>The
+                                                                    first
+                                                                    lightning
+                                                                    bolt
+                                                                    on
+                                                                    the
+                                                                    left
+                                                                    will
+                                                                    run
+                                                                    the
+                                                                    entire
+                                                                    SQL
+                                                                    Query
+                                                                    Panel.
+                                                                    This
+                                                                    is
+                                                                    preferable
+                                                                    if
+                                                                    you
+                                                                    want
+                                                                    to
+                                                                    run
+                                                                    all
+                                                                    the
+                                                                    queries
+                                                                    at
+                                                                    once.
+                                                                </li>
+                                                                <li>The
+                                                                    second
+                                                                    lightning
+                                                                    bolt
+                                                                    on
+                                                                    the
+                                                                    right
+                                                                    will
+                                                                    only
+                                                                    run
+                                                                    the
+                                                                    query
+                                                                    your
+                                                                    cursor
+                                                                    is
+                                                                    on.
+                                                                    This
+                                                                    is
+                                                                    preferable
+                                                                    if
+                                                                    you
+                                                                    want
+                                                                    to
+                                                                    run
+                                                                    one
+                                                                    query
+                                                                    at
+                                                                    a
+                                                                    time.
+                                                                </li>
+                                                            </ul>
+
+                                                            <p>In this
+                                                                Lab,
+                                                                it is
+                                                                recommended
+                                                                you
+                                                                use
+                                                                the
+                                                                second
+                                                                lightning
+                                                                bolt
+                                                                and
+                                                                run
+                                                                one
+                                                                query
+                                                                at a
+                                                                time
+                                                                to
+                                                                check
+                                                                your
+                                                                answers
+                                                                to
+                                                                each
+                                                                question
+                                                                as you
+                                                                go.&nbsp;
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </details>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_f63adc52-0e13-49e7-aedf-2a96bad0e076">
+                                    <div>
+                                        <div class="block html"
+                                            name="block_f63adc52-0e13-49e7-aedf-2a96bad0e076">
+                                            <div class="section">
+                                                <div class="html__title">
+                                                    <h2>
+                                                        
+                                                            Step 2:
+                                                            Write Your
+                                                            Queries
+
+                                                    </h2>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <p>When you're
+                                                            ready to
+                                                            start,
+                                                            open the
+                                                            <em>employees
+                                                            </em>table.
+                                                            Click on
+                                                            the <span
+                                                                style="color:#2980b9;"><strong>SELECT</strong></span><strong><span
+                                                                    style="color:#2980b9;">&nbsp;</span>*
+                                                                <span
+                                                                    style="color:#2980b9;">FROM
+                                                                </span>employees;</strong><strong>&nbsp;</strong>and
+                                                            then run
+                                                            the query
+                                                            using the
+                                                            middle
+                                                            lightning
+                                                            icon.</p>
+
+                                                        <p
+                                                            style="text-align:center">
+                                                            <img alt="The &quot;execute statement&quot; button, represented by a lightning bolt with an &quot;I' attached to it."
+                                                                src="/rte/content/app.pathstream.com/502d963d-948d-433f-afdd-f8cba7bcf6d5/Untitled.png"
+                                                                tabindex="0">
+                                                        </p>
+
+                                                        <p>Now proceed
+                                                            to
+                                                            Question
+                                                            1. Enter
+                                                            your query
+                                                            for
+                                                            Question 1
+                                                            on line
+                                                            8&nbsp;and
+                                                            press the
+                                                            middle
+                                                            lightning
+                                                            bolt. Once
+                                                            you&nbsp;run
+                                                            your&nbsp;query,
+                                                            answer the
+                                                            Knowledge
+                                                            Check
+                                                            question
+                                                            below to
+                                                            check your
+                                                            work.&nbsp;
+                                                        </p>
+
+                                                        <p>Continue
+                                                            this
+                                                            process
+                                                            for all of
+                                                            the
+                                                            questions
+                                                            in this
+                                                            Lab.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_d32cb1fc-ba6a-4a2a-826d-96ff29119a58">
+                                    <div>
+                                        <div class="block collapsible_html"
+                                            name="block_d32cb1fc-ba6a-4a2a-826d-96ff29119a58">
+                                            <div class="section">
+                                                <details class="styled-dropdown">
+                                                    <summary>Syntax
+                                                        Refresher
+                                                    </summary>
+                                                    <div>
+                                                        <div
+                                                            class="pre-content">
+                                                            <p><br>
+                                                                <strong>WHERE
+                                                                    Syntax</strong>
+                                                            </p>
+
+                                                            <pre><code class="language-sql hljs"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">SELECT</span></span></span></span>
+            *
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">FROM</span></span></span></span> table_1
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">WHERe</span></span></span></span> column_1 &lt; <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">num</span></span></span></span>;</code></pre>
+
+                                                            <p><br>
+                                                                <strong>AND
+                                                                    Syntax</strong>
+                                                            </p>
+
+                                                            <pre><code class="language-sql hljs"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">SELECT</span></span></span></span>
+            *
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">FROM</span></span></span></span> transactions
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">WHERE</span></span></span></span> quantity &gt; <span class="hljs-number"><span class="hljs-number"><span class="hljs-number"><span class="hljs-number">10</span></span></span></span> <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">AND</span></span></span></span> <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">cost</span></span></span></span> &lt; <span class="hljs-number"><span class="hljs-number"><span class="hljs-number"><span class="hljs-number">10</span></span></span></span>;</code></pre>
+
+                                                            <p><strong>OR
+                                                                    Syntax</strong>
+                                                            </p>
+
+                                                            <pre><code class="language-sql hljs"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">SELECT</span></span></span></span>
+            *
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">FROM</span></span></span></span> customers
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">WHERE</span></span></span></span> quantity &gt; <span class="hljs-number"><span class="hljs-number"><span class="hljs-number"><span class="hljs-number">50</span></span></span></span> <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">OR</span></span></span></span> quantity &lt; <span class="hljs-number"><span class="hljs-number"><span class="hljs-number"><span class="hljs-number">2</span></span></span></span>;</code></pre>
+
+                                                            <p><br>
+                                                                <strong>BETWEEN
+                                                                    Syntax</strong>
+                                                            </p>
+
+                                                            <pre><code class="language-sql hljs"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">SELECT</span></span></span></span>
+            * 
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">FROM</span></span></span></span> customers
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">WHERE</span></span></span></span> quantity <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">BETWEEN</span></span></span></span> <span class="hljs-number"><span class="hljs-number"><span class="hljs-number"><span class="hljs-number">5</span></span></span></span> <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">AND</span></span></span></span> <span class="hljs-number"><span class="hljs-number"><span class="hljs-number"><span class="hljs-number">15</span></span></span></span>;</code></pre>
+
+                                                            <p><br>
+                                                                <strong>IN
+                                                                    Syntax</strong>
+                                                            </p>
+
+                                                            <pre><code class="language-sql hljs"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">SELECT</span></span></span></span>
+            *
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">FROM</span></span></span></span> customers 
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">WHERE</span></span></span></span> customer_name <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">IN</span></span></span></span> (<span class="hljs-string"><span class="hljs-string"><span class="hljs-string"><span class="hljs-string">"Tyrion"</span></span></span></span>, <span class="hljs-string"><span class="hljs-string"><span class="hljs-string"><span class="hljs-string">"Sansa"</span></span></span></span>, <span class="hljs-string"><span class="hljs-string"><span class="hljs-string"><span class="hljs-string">"Gregor"</span></span></span></span>);
+        </code></pre>
+
+                                                            <p><br>
+                                                                <strong>NOT
+                                                                    Syntax</strong>
+                                                            </p>
+
+                                                            <pre><code class="language-sql hljs"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">SELECT</span></span></span></span>
+            *
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">FROM</span></span></span></span> customers 
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">WHERE</span></span></span></span> customer_name <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">NOT</span></span></span></span> <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">IN</span></span></span></span> (<span class="hljs-string"><span class="hljs-string"><span class="hljs-string"><span class="hljs-string">"Tyrion"</span></span></span></span>, <span class="hljs-string"><span class="hljs-string"><span class="hljs-string"><span class="hljs-string">"Sansa"</span></span></span></span>, <span class="hljs-string"><span class="hljs-string"><span class="hljs-string"><span class="hljs-string">"Gregor"</span></span></span></span>);
+        </code></pre>
+
+                                                            <p><br>
+                                                                <strong>ORDER
+                                                                    BY,
+                                                                    LIMIT,
+                                                                    OFFSET
+                                                                    Syntax</strong>
+                                                            </p>
+
+                                                            <pre><code class="language-sql hljs"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">SELECT</span></span></span></span> 
+            *
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">FROM</span></span></span></span> table_1
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">ORDER</span></span></span></span> <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">BY</span></span></span></span> column_1 <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">DESC</span></span></span></span>
+        <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">LIMIT</span></span></span></span> <span class="hljs-number"><span class="hljs-number"><span class="hljs-number"><span class="hljs-number">1</span></span></span></span> <span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword"><span class="hljs-keyword">OFFSET</span></span></span></span> <span class="hljs-number"><span class="hljs-number"><span class="hljs-number"><span class="hljs-number">1</span></span></span></span>;</code></pre>
+                                                        </div>
+                                                    </div>
+                                                </details>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_c8859030-991b-416e-90af-4df7689dc971">
+                                    <div>
+                                        <div class="block html"
+                                            name="block_c8859030-991b-416e-90af-4df7689dc971">
+                                            <div class="section">
+                                                <div class="html__title">
+                                                    <h2>Getting Stuck?
+                                                    </h2>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <p>If you're
+                                                            getting
+                                                            stuck,
+                                                            look
+                                                            through
+                                                            the
+                                                            drop-downs
+                                                            below for
+                                                            some help.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_4ff4a766-12fb-44b9-aa12-545e2b7ebcba">
+                                    <div>
+                                        <div class="block collapsible_html"
+                                            name="block_4ff4a766-12fb-44b9-aa12-545e2b7ebcba">
+                                            <div class="section">
+                                                <details class="styled-dropdown">
+                                                    <summary>Did You
+                                                        Get an Error
+                                                        Message?
+                                                    </summary>
+                                                    <div>
+                                                        <div
+                                                            class="pre-content">
+                                                            <p><strong>"I
+                                                                    keep
+                                                                    getting
+                                                                    an
+                                                                    error
+                                                                    message."</strong><br>
+                                                                Make
+                                                                sure
+                                                                you
+                                                                are:&nbsp;&nbsp;
+                                                            </p>
+
+                                                            <ul>
+                                                                <li>Using
+                                                                    the
+                                                                    correct
+                                                                    syntax
+                                                                    and
+                                                                    ending
+                                                                    your
+                                                                    queries
+                                                                    with
+                                                                    a
+                                                                    semicolon.
+                                                                </li>
+                                                                <li>Spelling
+                                                                    the
+                                                                    column
+                                                                    name(s)
+                                                                    and
+                                                                    table
+                                                                    name&nbsp;correctly.
+                                                                </li>
+                                                                <li>Not
+                                                                    typing
+                                                                    plain
+                                                                    English
+                                                                    on
+                                                                    the
+                                                                    Query
+                                                                    Tab
+                                                                    without
+                                                                    "--".&nbsp;Dash
+                                                                    dash
+                                                                    signifies
+                                                                    a
+                                                                    comment,
+                                                                    which
+                                                                    tells
+                                                                    SQL
+                                                                    to
+                                                                    ignore
+                                                                    that
+                                                                    line.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </details>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_d56bd7c8-3bbc-44ec-ac08-c3c39cf3c205">
+                                    <div>
+                                        <div class="block collapsible_html"
+                                            name="block_d56bd7c8-3bbc-44ec-ac08-c3c39cf3c205">
+                                            <div class="section">
+                                                <details class="styled-dropdown">
+                                                    <summary>Did You
+                                                        Delete
+                                                        Everything?
+                                                    </summary>
+                                                    <div>
+                                                        <div
+                                                            class="pre-content">
+                                                            <p><strong>Don't
+                                                                    Panic!</strong><br>
+                                                                If you
+                                                                used
+                                                                <strong>Ctrl
+                                                                    +
+                                                                    Z&nbsp;</strong>to
+                                                                undo
+                                                                mistakes&nbsp;and
+                                                                accidentally
+                                                                wiped
+                                                                the
+                                                                questions
+                                                                from
+                                                                MySQL,
+                                                                attempt
+                                                                to use
+                                                                <strong>Ctrl
+                                                                    +
+                                                                    Y</strong>&nbsp;to
+                                                                redo.<br>
+                                                                <br>
+                                                                Mac<br>
+                                                                <strong>control
+                                                                    +
+                                                                    Z&nbsp;
+                                                                </strong>&nbsp;
+                                                                &nbsp;UNDO<br>
+                                                                <strong>control&nbsp;+
+                                                                    Y&nbsp;</strong>
+                                                                &nbsp;
+                                                                &nbsp;REDO<br>
+                                                                <br>
+                                                                If
+                                                                that
+                                                                doesn't
+                                                                work,&nbsp;open
+                                                                any
+                                                                saved
+                                                                work&nbsp;by
+                                                                clicking
+                                                                <strong>&gt;
+                                                                    File
+                                                                </strong>and
+                                                                then&nbsp;<strong>&gt;
+                                                                    Open
+                                                                    SQL
+                                                                    Script</strong>.
+                                                                Here
+                                                                you
+                                                                will
+                                                                find
+                                                                saved
+                                                                files.
+                                                                If you
+                                                                reopen
+                                                                the
+                                                                Lab
+                                                                file,
+                                                                you
+                                                                will<br>
+                                                                ​​​​get
+                                                                back
+                                                                any
+                                                                progress
+                                                                you
+                                                                saved.
+                                                                If you
+                                                                did
+                                                                not
+                                                                save,
+                                                                you
+                                                                will
+                                                                not be
+                                                                able
+                                                                to
+                                                                recover
+                                                                your
+                                                                queries,
+                                                                but
+                                                                you
+                                                                will
+                                                                be
+                                                                able
+                                                                to
+                                                                open
+                                                                the
+                                                                original
+                                                                question
+                                                                file.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </details>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_211ce237-414b-4091-a062-b89da4326591">
+                                    <div>
+                                        <div class="block quiz"
+                            name="block_474c0fa4-e8c6-47a5-8188-c4ccfa528d1b">
+                            <div class="section">
+                                <div class="block-label">
+                                    <div
+                                        class="block-header block-label__wrapper block-label__wrapper--static">
+                                        <span class="label"><span>Knowledge
+                                                check</span></span>
+                                    </div>
+                                    <div class="block-label__content">
+                                        <div
+                                            class="knowledge-check-wrapper">
+                                            <div
+                                                class="knowledge-check__header">
+                                                <h2 class="heading">
+                                                    Missing Values in
+                                                    the World
+                                                    Happiness Dataset
+                                                </h2>
+
+                                                <ul class="tabs"
+                                                    role="tablist">
+                                                    <li class="tabs__item"
+                                                        role="tab"
+                                                        id="react-tabs-4"
+                                                        aria-selected="true"
+                                                        aria-disabled="false"
+                                                        aria-controls="react-tabs-5"
+                                                        tabindex="0">
+                                                        <span>Instructions</span>
+                                                    </li>
+                                                    <li class="tabs__item tabs__item--active"
+                                                        role="tab"
+                                                        id="react-tabs-6"
+                                                        aria-selected="false"
+                                                        aria-disabled="false"
+                                                        aria-controls="react-tabs-7">
+                                                        <span>Questions
+                                                            (2)</span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                            <div
+                                                class="knowledge-check__body">
+                                                <div class="react-tabs"
+                                                    data-tabs="true">
+                                                    <!-- <div class="react-tabs__tab-panel active"
+                                                        role="tabpanel"
+                                                        id="react-tabs-5"
+                                                        aria-labelledby="react-tabs-4">
+                                                        <div
+                                                            class="knowledge-check-title-wrapper">
+                                                            <div
+                                                                class="knowledge-check-title">
+                                                                <div>
+                                                                    <p>
+                                                                        <p>Use
+                                                                            the
+                                                                            technique
+                                                                            shown
+                                                                            previously
+                                                                            (click
+                                                                            on
+                                                                            a
+                                                                            column
+                                                                            and
+                                                                            then
+                                                                            open
+                                                                            the
+                                                                            Summary
+                                                                            tab
+                                                                            on
+                                                                            the
+                                                                            bottom
+                                                                            right)
+                                                                            to
+                                                                            count
+                                                                            missing
+                                                                            values
+                                                                            in
+                                                                            the
+                                                                            World
+                                                                            Happiness
+                                                                            dataset
+                                                                            and
+                                                                            answer
+                                                                            the
+                                                                            following
+                                                                            questions.
+                                                                        </p>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="answer-buttons">
+                                                            <button
+                                                                type="button"
+                                                                class="button-standard  button-standard--blue-9 button-standard--short"><span>Start</span></button>
+                                                        </div>
+                                                    </div> -->
+                                                    <div class="react-tabs__tab-panel"
+                                                        role="tabpanel"
+                                                        id="react-tabs-7"
+                                                        aria-labelledby="react-tabs-6">
+                                                        <div
+                                                            class="knowledge-check-title-wrapper knowledge-check-title-wrapper---with-border">
+                                                            <div
+                                                                class="knowledge-check-title">
+
+                                                                <div>
+                                                                    <p>
+                                                                        <p>What is the median of the below list of numbers? </p>
+
+                                                                           <p> <code class="code" style="color:black;">[4, 7, 9, 20, 23, 32, 33, 56]</code></p>
+                                                    
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <form 
+                                                            aria-label="answer">
+                                                            <div
+                                                                class="content">
+                                                                <div class="questions"
+                                                                    role="radiogroup"
+                                                                    aria-live="polite">
+                                                                    <div
+                                                                        class="question">
+                                                                        <input
+                                                                            id="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-0-multiple"
+                                                                            name="question-b59793b7-97a0-4f3a-bef6-e2af1b615bf1"
+                                                                            type="checkbox">
+
+                                                                        <label
+                                                                            class="true"
+                                                                            for="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-0-multiple">
+                                                                            <p>The median is 21.5
+                                                                            </p>
+                                                                        </label>
+
+                                                                    </div>
+                                                                    <div
+                                                                        class="question">
+                                                                        <input
+                                                                            id="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-1-multiple"
+                                                                            name="question-b59793b7-97a0-4f3a-bef6-e2af1b615bf1"
+                                                                            type="checkbox">
+
+                                                                        <label
+                                                                            class=""
+                                                                            for="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-1-multiple">
+                                                                            <p>The median is 20
+
+
+                                                                            </p>
+                                                                        </label>
+
+                                                                    </div>
+                                                                    <div
+                                                                        class="question">
+                                                                        <input
+                                                                            id="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-2-multiple"
+                                                                            name="question-b59793b7-97a0-4f3a-bef6-e2af1b615bf1"
+                                                                            type="checkbox">
+
+                                                                        <label
+                                                                            class=""
+                                                                            for="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-2-multiple">
+                                                                            <p>The median is 23
+                                                                            </p>
+                                                                        </label>
+
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="question-response"
+                                                                    aria-live="assertive"
+                                                                    role="status">
+                                                                    <div>
+                                                                        <p
+                                                                            class="question-explanation">
+                                                                            <p><em>In
+                                                                                    some
+                                                                                    cases,
+                                                                                    missing
+                                                                                    values
+                                                                                    are
+                                                                                    replaced
+                                                                                    with
+                                                                                    "NULL"
+                                                                                    or
+                                                                                    "NaN,"&nbsp;while
+                                                                                    in
+                                                                                    other
+                                                                                    cases
+                                                                                    you
+                                                                                    might
+                                                                                    find
+                                                                                    empty
+                                                                                    cells.
+                                                                                    It's
+                                                                                    important
+                                                                                    to
+                                                                                    note
+                                                                                    that
+                                                                                    when
+                                                                                    you
+                                                                                    encounter
+                                                                                    "NULL"
+                                                                                    or
+                                                                                    "NaN"
+                                                                                    values
+                                                                                    in
+                                                                                    a
+                                                                                    spreadsheet
+                                                                                    the
+                                                                                    cells
+                                                                                    are
+                                                                                    not
+                                                                                    actually
+                                                                                    empty.</em>
+                                                                            </p>
+
+                                                                            <p><em>Zero
+                                                                                    (0),
+                                                                                    however,
+                                                                                    is
+                                                                                    a
+                                                                                    real
+                                                                                    value.&nbsp;Be
+                                                                                    sure
+                                                                                    not
+                                                                                    to
+                                                                                    accidentally
+                                                                                    count
+                                                                                    zeros
+                                                                                    as
+                                                                                    missing
+                                                                                    data.
+                                                                                    You
+                                                                                    should
+                                                                                    also
+                                                                                    be
+                                                                                    careful
+                                                                                    to
+                                                                                    not
+                                                                                    replace
+                                                                                    missing
+                                                                                    values
+                                                                                    with
+                                                                                    zeroes,
+                                                                                    unless
+                                                                                    there
+                                                                                    is
+                                                                                    a
+                                                                                    specific
+                                                                                    reason
+                                                                                    zeroes
+                                                                                    would
+                                                                                    serve
+                                                                                    as
+                                                                                    a
+                                                                                    good
+                                                                                    substitute
+                                                                                    for
+                                                                                    the
+                                                                                    missing
+                                                                                    values.&nbsp;</em>
+                                                                            </p>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div
+                                                                    class="answer-buttons">
+                                                                    <div class="steps"
+                                                                        aria-labelledby="question-progress">
+                                                                        <button
+                                                                            type="button"
+                                                                            disabled=""
+                                                                            class="steps__arrow left disabled"
+                                                                            aria-label="Previous"><svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                <path d="M14 2L2 14L14 26" stroke-width="3" stroke-linejoin="round"/>
+                                                                                </svg>
+                                                                                
+                                                                                </button><button
+                                                                            type="button"
+                                                                            class="steps__arrow right"
+                                                                            aria-label="Next"><svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                <path d="M2 2L14 14L2 26"  stroke-width="3" stroke-linejoin="round"/>
+                                                                                </svg>
+                                                                                
+</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="answer-buttons__buttons">
+                                                                        <button
+                                                                            type="button"
+                                                                            class="button-standard button-standard--green button-standard--short"><span>Next</span></button>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </form>
+                                                        <!-- <form 
+                                                            aria-label="answer">
+                                                            <div
+                                                                class="content">
+                                                                <div class="questions"
+                                                                    role="radiogroup"
+                                                                    aria-live="polite">
+                                                                    <div
+                                                                        class="question">
+                                                                        <input
+                                                                            id="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-0-multiple"
+                                                                            name="question-b59793b7-97a0-4f3a-bef6-e2af1b615bf1"
+                                                                            type="checkbox">
+
+                                                                        <label
+                                                                            class="true"
+                                                                            for="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-0-multiple">
+                                                                            <p>The median is 21.5
+                                                                            </p>
+                                                                        </label>
+
+                                                                    </div>
+                                                                    <div
+                                                                        class="question">
+                                                                        <input
+                                                                            id="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-1-multiple"
+                                                                            name="question-b59793b7-97a0-4f3a-bef6-e2af1b615bf1"
+                                                                            type="checkbox">
+
+                                                                        <label
+                                                                            class=""
+                                                                            for="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-1-multiple">
+                                                                            <p>The median is 20
+
+
+                                                                            </p>
+                                                                        </label>
+
+                                                                    </div>
+                                                                    <div
+                                                                        class="question">
+                                                                        <input
+                                                                            id="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-2-multiple"
+                                                                            name="question-b59793b7-97a0-4f3a-bef6-e2af1b615bf1"
+                                                                            type="checkbox">
+
+                                                                        <label
+                                                                            class=""
+                                                                            for="questions-b59793b7-97a0-4f3a-bef6-e2af1b615bf1-2-multiple">
+                                                                            <p>The median is 23
+                                                                            </p>
+                                                                        </label>
+
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="question-response"
+                                                                    aria-live="assertive"
+                                                                    role="status">
+                                                                    <div>
+                                                                        <p
+                                                                            class="question-explanation">
+                                                                            <p><em>In
+                                                                                    some
+                                                                                    cases,
+                                                                                    missing
+                                                                                    values
+                                                                                    are
+                                                                                    replaced
+                                                                                    with
+                                                                                    "NULL"
+                                                                                    or
+                                                                                    "NaN,"&nbsp;while
+                                                                                    in
+                                                                                    other
+                                                                                    cases
+                                                                                    you
+                                                                                    might
+                                                                                    find
+                                                                                    empty
+                                                                                    cells.
+                                                                                    It's
+                                                                                    important
+                                                                                    to
+                                                                                    note
+                                                                                    that
+                                                                                    when
+                                                                                    you
+                                                                                    encounter
+                                                                                    "NULL"
+                                                                                    or
+                                                                                    "NaN"
+                                                                                    values
+                                                                                    in
+                                                                                    a
+                                                                                    spreadsheet
+                                                                                    the
+                                                                                    cells
+                                                                                    are
+                                                                                    not
+                                                                                    actually
+                                                                                    empty.</em>
+                                                                            </p>
+
+                                                                            <p><em>Zero
+                                                                                    (0),
+                                                                                    however,
+                                                                                    is
+                                                                                    a
+                                                                                    real
+                                                                                    value.&nbsp;Be
+                                                                                    sure
+                                                                                    not
+                                                                                    to
+                                                                                    accidentally
+                                                                                    count
+                                                                                    zeros
+                                                                                    as
+                                                                                    missing
+                                                                                    data.
+                                                                                    You
+                                                                                    should
+                                                                                    also
+                                                                                    be
+                                                                                    careful
+                                                                                    to
+                                                                                    not
+                                                                                    replace
+                                                                                    missing
+                                                                                    values
+                                                                                    with
+                                                                                    zeroes,
+                                                                                    unless
+                                                                                    there
+                                                                                    is
+                                                                                    a
+                                                                                    specific
+                                                                                    reason
+                                                                                    zeroes
+                                                                                    would
+                                                                                    serve
+                                                                                    as
+                                                                                    a
+                                                                                    good
+                                                                                    substitute
+                                                                                    for
+                                                                                    the
+                                                                                    missing
+                                                                                    values.&nbsp;</em>
+                                                                            </p>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div
+                                                                    class="answer-buttons">
+                                                                    <div class="steps"
+                                                                        aria-labelledby="question-progress">
+                                                                        <button
+                                                                            type="button"
+                                                                            disabled=""
+                                                                            class="steps__arrow left disabled"
+                                                                            aria-label="Previous"><svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                <path d="M14 2L2 14L14 26" stroke-width="3" stroke-linejoin="round"/>
+                                                                                </svg>
+                                                                                
+                                                                                </button><button
+                                                                            type="button"
+                                                                            class="steps__arrow right"
+                                                                            aria-label="Next"><svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                <path d="M2 2L14 14L2 26"  stroke-width="3" stroke-linejoin="round"/>
+                                                                                </svg>
+                                                                                
+</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="answer-buttons__buttons">
+                                                                        <button
+                                                                            type="button"
+                                                                            class="button-standard button-standard--green button-standard--short"><span>Next</span></button>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </form>  -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_a703d42d-5ce5-47f4-87ba-9e0f3d34bb63">
+                                    <div>
+                                        <div class="block html"
+                                            name="block_a703d42d-5ce5-47f4-87ba-9e0f3d34bb63">
+                                            <div class="section">
+                                                <div class="html__title">
+                                                    <h2>Conclusion
+                                                    </h2>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <p>Good
+                                                            job!&nbsp;<span
+                                                                style="font-size:20px;">🙌</span>
+                                                        </p>
+
+                                                        <p>You&nbsp;have
+                                                            solidified
+                                                            your
+                                                            understanding
+                                                            and
+                                                            application
+                                                            of the
+                                                            <span
+                                                                style="color:#2980b9;"><strong>WHERE</strong></span>&nbsp;clause
+                                                            by
+                                                            developing
+                                                            your own
+                                                            SQL
+                                                            queries.
+                                                        </p>
+
+                                                        <p>Remember to
+                                                            save your
+                                                            work!&nbsp;
+                                                        </p>
+
+                                                        <p>Please
+                                                            click
+                                                            Finish&nbsp;to
+                                                            continue.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    name="block_61804381-1318-4e74-a034-565e2f2be839">
+                                    <div>
+                                        <div class="block collapsible_html"
+                                            name="block_61804381-1318-4e74-a034-565e2f2be839">
+                                            <div class="section">
+                                                <details class="styled-dropdown">
+                                                    <summary>
+                                                        Instructions
+                                                        to Save Your
+                                                        SQL script
+                                                    </summary>
+                                                    <div>
+                                                        <div
+                                                            class="pre-content">
+                                                            <ul>
+                                                                <li>Go
+                                                                    to
+                                                                    the
+                                                                    Main
+                                                                    Menu
+                                                                    Bar.
+                                                                </li>
+                                                                <li>Click
+                                                                    on
+                                                                    <strong>File
+                                                                        &gt;
+                                                                        Save
+                                                                        Script</strong>.
+                                                                </li>
+                                                            </ul>
+
+                                                            <p>Your
+                                                                script
+                                                                has
+                                                                now
+                                                                been
+                                                                saved
+                                                                to the
+                                                                Pathstream
+                                                                platform.<br>
+                                                                <br>
+                                                                When
+                                                                you
+                                                                revisit
+                                                                the
+                                                                Lab,
+                                                                your
+                                                                script
+                                                                file
+                                                                should
+                                                                remain
+                                                                open.
+                                                                However,
+                                                                if
+                                                                your
+                                                                script
+                                                                file
+                                                                is
+                                                                closed,
+                                                                you
+                                                                can
+                                                                reopen
+                                                                the
+                                                                SQL
+                                                                script
+                                                                by
+                                                                clicking
+                                                                on
+                                                                <strong>File
+                                                                    &gt;
+                                                                    Open
+                                                                    SQL
+                                                                    Script
+                                                                    &gt;</strong>
+                                                                and
+                                                                searching
+                                                                for
+                                                                the
+                                                                file
+                                                                you
+                                                                saved.
+                                                            </p>
+
+                                                            <p>Please
+                                                                click
+                                                                Finish&nbsp;to
+                                                                continue.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </details>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="lab-exercise__controls">
+                        <div
+                            class="authoring-dropdown full-width small-list">
+                            <button
+                                class="button-standard button-standard--grey button-standard--short"
+                                type="button"><span>Download
+                                    files</span><svg
+                                    viewBox="0 0 14.4 9.8">
+                                    <path d="M0 0l7.2 9.8L14.4 0H0z">
+                                    </path>
+                                </svg></button>
+                            <div class="collapsible"><button
+                                    type="button"><span>Download db
+                                        starter
+                                        file</span></button><button
+                                    type="button"><span>Download query
+                                        starter file</span></button>
+                            </div>
+                        </div>
+                    </div> -->
+                    <footer class="lab-exercise__footer">
+                        <div class="lab-exercise__progress">
+                            <div class="lab-exercise__progress-bar"
+                                style="width: 100%;"></div>
+                        </div>
+                        <div class="lab-exercise__controls"><button
+                                type="button"
+                                class="lab-button lab-button--medium lab-button--blue  lab-button--radius"><span>Finish</span></button>
                         </div>
                     </footer>
                 </article>

@@ -10,16 +10,16 @@
 }
 
 
-.lesson-part__check .knowledge-check__header li::before {
+.quiz .knowledge-check__header li::before {
     content: " ";
 }
 
-.lesson-part__check ul li {
+.quiz ul li {
     position: relative;
     padding-left: 20px;
 }
 
-.knowledge-check__header ul {
+.quiz .knowledge-check__header ul {
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-size: 11px;
@@ -32,7 +32,7 @@
 
 
 
-.knowledge-check__header .heading {
+.quiz .knowledge-check__header .heading {
     margin: 0;
 }
 
@@ -226,7 +226,7 @@ form .textarea .cke_editable[contenteditable='true'] {
     box-sizing: border-box;
     border-radius: 5px;
     color: #D6E6F1;
-    padding: 17px 23px;
+    padding: 0px 20px;
     font-size: 14px;
     line-height: 22px;
     min-height: 96px;
@@ -292,4 +292,70 @@ form .textarea .cke_editable[contenteditable='true'] {
     .question label {
         min-height: 60px;
     }
+}
+
+
+.lab-sidebar .quiz {
+    background: #27485D;
+    color: white;
+    margin: 0px -35px;
+    padding: 10px 15px;
+}
+
+
+.lab-sidebar .knowledge-check__header .tabs__item--active::after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 10px;
+    right: -2px;
+    background: #368FD5;
+    height: 4px;
+}
+
+.lab-sidebar .quiz .label {
+    font-size: 8px;
+}
+
+
+
+
+.lab-sidebar .quiz .answer-buttons {
+    margin-top: 10px;
+}
+
+.lab-sidebar .quiz .knowledge-check__header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab-sidebar .knowledge-check__header .heading {
+    text-align: center;
+    font-size: 14px;
+}
+
+.lab-sidebar .quiz .block-header .label {
+    margin: 0 auto;
+}
+
+.lab-sidebar .quiz .questions {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.lab-sidebar .quiz .question {
+    width: 100%;
+    max-height: none;
+    max-width: none;
+}
+
+.lab-sidebar .quiz .question label {
+    min-height: 20px;
+}
+
+.lab-sidebar .quiz .knowledge-check-title {
+    margin-bottom: 16px;
 }

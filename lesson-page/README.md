@@ -205,3 +205,55 @@
         class="label"><span>Lab</span></span>
 </div>
 ```
+
+- Added a `launch__wrapper` around the `launch` button, and added an SVG graphic
+```html
+<div class="launch__wrapper">
+    <svg width="231" height="138" viewBox="0 0 231 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d)">
+        <rect x="7" y="7.30579" width="216" height="122.293" fill="#154268"/>
+        </g>
+        <path d="M16 72.2739H135" stroke="#5EB3EA" stroke-width="0.5"/>
+        <path d="M16 79.9172H135" stroke="#5EB3EA" stroke-width="0.5"/>
+        <path d="M16 87.5605H135" stroke="#5EB3EA" stroke-width="0.5"/>
+        <path d="M16 56.9873H135" stroke="#5EB3EA" stroke-width="0.5"/>
+        <path d="M16 64.6306H135" stroke="#5EB3EA" stroke-width="0.5"/>
+        <path d="M88 47.4331L88 98.0701" stroke="#5EB3EA" stroke-width="0.5"/>
+        <path d="M112 47.4331L112 98.0701" stroke="#5EB3EA" stroke-width="0.5"/>
+        <path d="M64 47.4331L64 98.0701" stroke="#5EB3EA" stroke-width="0.5"/>
+        <path d="M40 47.4331L40 98.0701" stroke="#5EB3EA" stroke-width="0.5"/>
+        <path d="M2 27.3694L2 1.5732L34 1.57321" stroke="#039BE8" stroke-width="3"/>
+        <path d="M228.7 109.726V135.522H196.7" stroke="#039BE8" stroke-width="3"/>
+        <rect x="16.25" y="49.594" width="118.5" height="45.3599" stroke="#368FD5" stroke-width="0.5"/>
+        <path d="M16 26.4141L213 26.4141" stroke="#5EB3EA"/>
+        <path d="M213 63.6752L122 63.6752" stroke="#039BE8" stroke-width="3" stroke-dasharray="3 16"/>
+        <path d="M213 77.0509L122 77.0509" stroke="#039BE8" stroke-width="3" stroke-dasharray="3 16"/>
+        <path d="M213 90.4268L122 90.4268" stroke="#039BE8" stroke-width="3" stroke-dasharray="3 16"/>
+        <path d="M213 103.802L122 103.802" stroke="#039BE8" stroke-width="3" stroke-dasharray="3 16"/>
+        <path d="M213 117.178L122 117.178" stroke="#039BE8" stroke-width="3" stroke-dasharray="3 16"/>
+        <ellipse cx="19.5" cy="17.3376" rx="2.5" ry="2.38854" fill="#0278C7"/>
+        <ellipse cx="29.5" cy="17.3376" rx="2.5" ry="2.38854" fill="#368FD5"/>
+        <ellipse cx="39.5" cy="17.3376" rx="2.5" ry="2.38854" fill="#5EB3EA"/>
+        <rect x="151.3" y="16.2044" width="60.4" height="2.26624" fill="#039BE8" stroke="#039BE8" stroke-width="0.6"/>
+        <path d="M64.4464 111.751C62.6056 111.242 61.0422 109.964 60.3208 108.15C59.0844 105.042 60.7906 101.539 64.1318 100.326C67.4729 99.1123 71.1838 100.649 72.4203 103.757C73.1694 105.64 72.8384 107.668 71.7182 109.244" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M74.3274 110.353C75.9134 108.002 76.3205 105.033 75.1442 102.33C73.2026 97.8665 67.6823 95.8155 62.8143 97.7487C57.9463 99.6818 55.574 104.867 57.5156 109.33C58.5598 111.73 60.639 113.433 63.0952 114.193" stroke="white" stroke-linecap="round"/>
+        <path d="M64.7528 132.296L64.8916 104.459L86.1571 123.264L78.6614 124.686L83.0424 134.162L76.2062 137.047L71.8253 127.57L64.7528 132.296Z" fill="#154268" stroke="#368FD5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <defs>
+        <filter id="filter0_d" x="3" y="7.30579" width="224" height="130.293" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0.117647 0 0 0 0 0.333333 0 0 0 0 0.478431 0 0 0 0.15 0"/>
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        </defs>
+        </svg>
+        
+<button
+    type="button"
+    class="launch"><span>Launch
+        Lab</span></button>
+    </div>
+```

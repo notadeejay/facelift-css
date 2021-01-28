@@ -22,3 +22,6 @@ This is the button that appears at the right hand side of the lesson page and sa
                     </button></div>
 ```
 
+## launch button
+- Added SVGs as the button backgrounds
+- Wrapped inside of a new div `launch__wrapper`

@@ -60,7 +60,7 @@
 }
 
 
-aside {
+.as-right, .as-left {
   width: 30%;
   min-height: 202px;
   background: #D6E6F1;
