@@ -1,3 +1,7 @@
+## General Implementation notes
+
+- For the most part button sizing / responsiveness / positioning should stay roughly the same, I tried not to change to much from the existing implementation.
+
 ## top-button
 
 This is the button that appears at the right hand side of the lesson page and says **Go to current**. New HTML should be as follows. Changed the SVG and swaped the order of the SVG and label:
@@ -17,3 +21,4 @@ This is the button that appears at the right hand side of the lesson page and sa
                             Current</span>
                     </button></div>
 ```
+

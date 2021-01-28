@@ -4,4 +4,4 @@
 - Need to be extremely careful about spacing and indentation
 - Have written CSS for lists: 
     - Inside tables
-    - On dark background
+    - On dark background (lab and KC blocks)

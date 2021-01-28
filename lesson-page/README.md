@@ -4,6 +4,8 @@
 
 - Removed the circle SVG from the Part Header
 
+- Need to remove the animated green confetti / gifs from the Part Header and Footer on complete. TBD what animation might replace these.
+
 ### Lesson HTML Block
 - Changed the H1s in the HTML blocks to --> H2s
 ```html

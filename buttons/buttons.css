@@ -84,10 +84,7 @@ button {
     line-height: 30px;
     letter-spacing: 1px;
     text-align: center;
-    width: 300px;
     background-color: transparent;
-    -webkit-transition: background-color 300ms, color 300ms;
-    transition: background-color 300ms, color 300ms;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,21 +93,23 @@ button {
     padding-bottom: 0;
     padding-left: 0;
     color: #fff;
-    background-color: #039BE8;
-    clip-path: polygon(5% 0%, 80% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%, 0% 80%, 0% 30%);
-    margin: 20px auto;
-    
+    width: 260px;
+    height: 70px;
+    background: url("./02_launchlab_default.svg") no-repeat;
 }
 
-.launch:hover {
+.launch__wrapper:hover .launch {
+    background: url("./02_launchlab_hover.svg") no-repeat;
+  }
+/* .launch:hover {
     background: rgba(3, 155, 232, 0.65);
     box-shadow: 4px 4px 4px rgba(3, 155, 232, 0.12);
-}
+} */
 
 
-.launch svg {
+/* .launch svg {
     margin-left: 10px;
-}
+} */
 
 /*Standard buttond designs*/
 
@@ -223,6 +222,10 @@ button {
     right: 79px;
     align-items: center;
     justify-content: center;
+}
+
+.top-button__icon {
+    margin-top: 4px;
 }
 
 

@@ -122,7 +122,12 @@ body {
 .lab ul > li::before,
 .lab ul li li::before,
 .lab ol li::marker,
-.lab ol li li::marker {
+.lab ol li li::marker, 
+.quiz ul > li::before,
+.quiz ul li li::before,
+.quiz ol li::marker,
+.quiz ol li li::marker 
+{
     color: white;
 }
 
