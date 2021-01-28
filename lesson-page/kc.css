@@ -1,4 +1,4 @@
-.lesson-part__check {
+.lesson-part__check, .comment_thread {
     background: #27485D;
     border-radius: 8px;
     color: white;
@@ -219,7 +219,7 @@
 }
 
 
-form .textarea .cke_editable[contenteditable='true'] {
+form .textarea .cke_editable[contenteditable='true'], .comment-thread-wrapper .comment-thread__header .input-wrapper .input .input-element {
     display: block;
     width: 100%;
     border: 2px solid #039BE8;

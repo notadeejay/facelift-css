@@ -86,7 +86,6 @@
 
 .typeform .heading, 
 .next-tech .heading,
-.comment-thread .heading,
 .sql .heading, 
 .embed .heading{
 text-align: center;
@@ -106,6 +105,14 @@ line-height: 19.2px;
 }
 /* Comment Thread Blocks*/
 
+.comment_thread {
+    padding: 32px 48px;
+}
+
+.comment_thread .heading, .comment_thread .label {
+    color: white;
+}
+
 .comment-thread-wrapper .comment-thread__header .input-wrapper .input .input-element {
     border: 1.5px solid #1E557A;
     border-radius: 4px;
@@ -120,6 +127,114 @@ line-height: 19.2px;
 
 .comment-thread-wrapper .comment-thread__header .input-wrapper .input {
     position: relative;
+    margin: 32px 0px;
+}
+.comment-thread .button {
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+}
+
+.comment-thread .button .button-standard--short {
+    margin: 10px 0px;
+}
+
+
+
+.comment-thread-wrapper .comment-thread__body .single-comment__body p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.comment-thread-wrapper .comment-thread__body .single-comment {
+    padding-bottom: 28px;
+}
+
+.comment-thread-wrapper .comment-thread__body .single-comment__header .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.comment-thread-wrapper .comment-thread .user-profile-picture {
+    display: block;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+    background: #C4C4C4;
+}
+
+.comment-thread-wrapper .comment-thread__body .single-comment__header .column .user-name {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.comment-thread-wrapper .comment-thread__body .single-comment__body {
+    display: block;
+    padding-left: 55px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: -20px;
+}
+.comment-thread-wrapper .comment-thread__body .single-comment__header .column.timestamp-wrapper {
+    position: relative;
+}
+
+time.published {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+
+letter-spacing: 0.5px;
+
+color: #D6E6F1;
+}
+
+.course-card__button {
+    background: transparent;
+    border: none;
+    margin: 0 -10px 0 0;
+    padding: 0;
+    padding: 15px 10px;
+}
+
+.comment-thread .single-comment__header svg path {
+    fill: #D6E6F1;
+}
+
+.icon-element--size-auto {
+    width: auto;
+    height: auto;
+}
+
+.icon-element--background-transparent {
+    background-color: transparent;
+}
+.comment-thread-wrapper .comment-thread__body .single-comment__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
 }
 
 .block figcaption,
