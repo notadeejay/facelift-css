@@ -101,15 +101,6 @@ button {
 .launch__wrapper:hover .launch {
     background: url("./02_launchlab_hover.svg") no-repeat;
   }
-/* .launch:hover {
-    background: rgba(3, 155, 232, 0.65);
-    box-shadow: 4px 4px 4px rgba(3, 155, 232, 0.12);
-} */
-
-
-/* .launch svg {
-    margin-left: 10px;
-} */
 
 /*Standard buttond designs*/
 
@@ -176,10 +167,22 @@ button {
     background-color: #039BE8;
 }
 
- .button-standard--outlined, .button-standard--transparent {
+ .button-standard--outlined {
     background-color: transparent;
     color: #039BE8;
     border: 2px solid #039BE8;
+}
+
+.button-standard--transparent {
+    border: none;
+    background: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #1E557A;
+
 }
 
 .button-standard--short {

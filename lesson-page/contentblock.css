@@ -4,7 +4,7 @@
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding: 16px 0;
+    padding: 16px 0px;
 }
 
 .block p {
@@ -54,6 +54,7 @@
     color:  #1E557A;
 }
 
+
 .block-header {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -61,10 +62,10 @@
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    margin-top: 8px;
-    padding: 10px 0;
-    display:flex;
+    margin-top: 11px;
+    display: flex;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .block-icon {

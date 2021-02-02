@@ -126,7 +126,7 @@
     display: block;
     font-size: 14px;
     color: #D6E6F1;
-    width: 95%;
+    width: 98%;
     min-height: fit-content;
     padding: 0px 10px;
     border: 1.5px solid #D6E6F1;
@@ -202,7 +202,7 @@
 }
 
 .steps__arrow.disabled svg>path {
-    stroke: #1E557A;
+    stroke: #27485D;
 }
 
 
@@ -299,14 +299,14 @@ form .textarea .cke_editable[contenteditable='true'], .comment-thread-wrapper .c
     background: #27485D;
     color: white;
     margin: 0px -35px;
-    padding: 10px 15px;
+    padding: 10px 32px;
 }
 
 
 .lab-sidebar .knowledge-check__header .tabs__item--active::after {
     content: '';
     position: absolute;
-    bottom: -14px;
+    bottom: -12px;
     left: 10px;
     right: -2px;
     background: #368FD5;

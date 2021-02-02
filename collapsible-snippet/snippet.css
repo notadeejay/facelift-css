@@ -54,10 +54,12 @@
 
 .lab-exercise .styled-dropdown .pre-content {
     padding: 12px 10px;
+    
 }
 
 .lab-exercise .styled-dropdown summary {
     padding: 12px 8px;
+    align-items: center;
 }
 
 /* Specific Adjustments for Dropdowns in the Lab Block*/

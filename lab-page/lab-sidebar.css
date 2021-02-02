@@ -193,3 +193,33 @@
     margin-top: -32px;
 }
 
+
+
+
+.lab-exercise__download button {
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: space-between;
+    border-bottom: 1px solid #95D6F8;
+    margin: 0;
+    padding: 12px 32px;
+}
+
+.lab-exercise__download .collapsible button {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    color: #039BE8;
+    padding: 16px 32px;
+    border: none;
+    display: flex;
+    justify-content: center
+}
+
+.lab-exercise__download .collapsible button:first-child {
+    border-bottom:1px solid #C9EDFB;
+}

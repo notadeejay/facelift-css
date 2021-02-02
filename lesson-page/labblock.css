@@ -7,18 +7,18 @@
 }
 
 @media screen and (max-width: 1279px) {
-.lab {
-    margin-left: -20px;
-    padding: 80px 20px;
-}
-}
-
-@media screen and (min-width: 1280px) {
     .lab {
-        margin-left: -320px;
-        padding: 80px 320px;
-        }
-}
+        margin-left: -20px;
+        padding: 80px 20px;
+    }
+    }
+    
+    @media screen and (min-width: 1280px) {
+        .lab {
+            margin-left: -420px;
+            padding: 80px 420px;
+            }
+    }
     
 
 .lab > path {
@@ -34,8 +34,8 @@
 .lab .heading {
     color: white;
     font-size: 32px;
+    margin: 0;
 }
-
 
 .lab .knowledge-check__body {
     display: flex;
@@ -54,6 +54,7 @@
    color: #039BE8
 }
 
+/*New DIV around launch button*/
 .launch__wrapper {
     background: linear-gradient(180deg, #0278C7 0%, #27485D 96.87%);
     opacity: 0.75;
@@ -86,6 +87,9 @@
         align-items: center;
     }
     
+    .lab .block-header {
+        margin: 0 auto;
+    }
     .launch__wrapper {
         background: transparent;
         border: none;
