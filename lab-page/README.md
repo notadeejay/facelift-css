@@ -2,6 +2,7 @@
 
 - Need to change the SVG for the back button. It is included in `lab-sidebar.html`
 - Need to move the Download Files button to directly below the  `lab-exercise__header`. The following code contains an updated class name and a new SVG
+- The 'block html' divs should also include the `html__title` class for the `<h2>` (assuming this should carry over from the changes to the lesson blocks?)
 
 ```html
 <div class="lab-exercise__download">

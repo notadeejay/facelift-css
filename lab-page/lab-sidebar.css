@@ -153,13 +153,14 @@
     line-height: 24px;
 }
 
-.lab-exercise .html__title {
+.lab-exercise .html__title h2 {
     font-family: Lato;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.5px;
     color: #1E557A;
+    margin-bottom: 20px;
 }
 
 .html__title+div {
@@ -217,9 +218,19 @@
     padding: 16px 32px;
     border: none;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    border-bottom:1px solid #C9EDFB;
 }
 
-.lab-exercise__download .collapsible button:first-child {
-    border-bottom:1px solid #C9EDFB;
+.lab-exercise .block img {
+    margin: 8px 0px;
+}
+
+.lab-exercise .block figure {
+    margin: 0;
+} 
+
+.lab-exercise .block figcaption {
+    font-size: 12px;
+    margin-top: 4px;
 }

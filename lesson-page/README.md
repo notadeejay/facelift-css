@@ -1,8 +1,7 @@
 ## Implementation Considerations 
 
-- The general layout and responsiveness of the page should remain the same as it is now. This is not 100% reflected in the CSS right now. I've added media queries for particular items that required alternate layouts but did not include them for the general layout of the lesson page. 
 
-- Another general note, I changed all HTML blocks to begin with an H2, and all parts should have an H1. 
+- General note: I changed all HTML blocks to begin with an H2, and all parts should have an H1. 
 
 ### Lesson Part
 
@@ -31,6 +30,7 @@
 
 ### Knowledge Check Block
 
+- Created classes for `true` and `false` that will mark the students selection accordingly. This will need to be worked into whatever JS logic we use to mark a student's answer correct or incorrect.
 - Moved the `steps` to navigate between questions into to the `answer-buttons` div
 
 ```html
