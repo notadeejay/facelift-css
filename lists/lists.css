@@ -130,6 +130,18 @@ body {
 .quiz ul>li::before,
 .quiz ul li li::before,
 .quiz ol li::marker,
-.quiz ol li li::marker {
-    color: white;
+.quiz ol li li::marker,
+.comment_thread ul>li::before,
+.comment_thread ul li li::before,
+.comment_thread ol li::marker,
+.comment_thread ol li li::marker{
+    color: #ffffff;
+}
+
+/*Adjust the marker color for lists inside of callouts*/
+.callout ul>li::before,
+.calloutul li li::before,
+.callout ol li::marker,
+.callout ol li li::marker {
+    color: #000000;
 }
