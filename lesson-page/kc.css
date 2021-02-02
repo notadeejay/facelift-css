@@ -107,8 +107,8 @@
     width: 0;
 }
 
-.question input[type="radio"]:hover+label,
-.question input[type="checkbox"]:hover+label {
+.question input[type="radio"]:not(:checked):hover+label,
+.question input[type="checkbox"]:not(:checked):hover+label {
     border: 2px solid #039BE8;
     background:#1E557A;
 }
@@ -150,16 +150,25 @@
     border: none;
     background: #E98C73;
     opacity: 0.8;
-    border: 2px solid #E98C73;
     color: #7A0D1E;
+    background-image: url("./false.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
 }
 
+
+.question label.false:hover {
+
+}
 
 
 .question label.true {
     background: #C9EDFB;
-    border: 1.5px solid #C9EDFB;
+    background-image: url("./true.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
     color: #039BE8;
+    border: none;
 }
 
 

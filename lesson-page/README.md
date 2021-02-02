@@ -1,5 +1,7 @@
 ## Implementation Considerations 
 
+- The general layout and responsiveness of the page should remain the same as it is now. This is not 100% reflected in the CSS right now. I've added media queries for particular items that required alternate layouts but did not include them for the general layout of the lesson page. 
+
 ### Lesson Part
 
 - Removed the circle SVG from the Part Header
@@ -7,7 +9,8 @@
 - Need to remove the animated green confetti / gifs from the Part Header and Footer on complete. TBD what animation might replace these.
 
 ### Lesson HTML Block
-- Changed the H1s in the HTML blocks to --> H2s
+- Changed the H1s in the HTML blocks to --> H2s and added a class of `html__title`
+
 ```html
 <div class="lesson-part__contentBlock">
     <div class="block html"
@@ -24,7 +27,7 @@
 
 - Added negative margin so that it will appear like an accordion menu in relation to the previous block
 
-### Knowledge Checkblock
+### Knowledge Check Block
 
 - Moved the `steps` to navigate between questions into to the `answer-buttons` div
 
@@ -118,7 +121,7 @@
     </div>
 ```
 
-- Need to add SVGs to represent right and wrong. [Like this](https://share.getcloudapp.com/jkuegB8p)
+
 
 ## Next.Tech, Embed, Typeform Block
 
