@@ -1,4 +1,5 @@
-.lesson-part__check, .comment_thread {
+.lesson-part__check,
+.comment_thread {
     background: #27485D;
     border-radius: 8px;
     color: white;
@@ -110,14 +111,14 @@
 .question input[type="radio"]:not(:checked):hover+label,
 .question input[type="checkbox"]:not(:checked):hover+label {
     border: 2px solid #039BE8;
-    background:#1E557A;
+    background: #1E557A;
 }
 
 .question input[type="radio"]:checked+label,
 .question input[type="checkbox"]:checked+label {
     border: 2px solid #039BE8;
     background: #039BE8;
-    color:  #FFF;
+    color: #FFF;
 }
 
 
@@ -157,9 +158,7 @@
 }
 
 
-.question label.false:hover {
-
-}
+.question label.false:hover {}
 
 
 .question label.true {
@@ -228,7 +227,8 @@
 }
 
 
-form .textarea .cke_editable[contenteditable='true'], .comment-thread-wrapper .comment-thread__header .input-wrapper .input .input-element {
+form .textarea .cke_editable[contenteditable='true'],
+.comment-thread-wrapper .comment-thread__header .input-wrapper .input .input-element {
     display: block;
     width: 100%;
     border: 2px solid #039BE8;
@@ -253,11 +253,12 @@ form .textarea .cke_editable[contenteditable='true'], .comment-thread-wrapper .c
         padding: 0 40px;
         margin-top: 24px;
     }
+
     .quiz .knowledge-check__header {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        
+
     }
 }
 

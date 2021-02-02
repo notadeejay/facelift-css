@@ -1,6 +1,7 @@
 ## Implementation Considerations
 
 - Implemented through the CKEditor Styles plugin
+- Any existing styles that are simply being updated should keep the same class names so they will auto-update on release.
 
 ### Existing styles to be removed include:
 

@@ -6,8 +6,7 @@ body {
 
 /*Currently scope to lesson parts for testing, but should also include the lab sidebar*/
 .lesson-part__content ul,
-.lesson-part__content ol
- {
+.lesson-part__content ol {
     line-height: 28px;
     padding-inline-start: 20px;
 }
@@ -52,7 +51,7 @@ body {
     margin-right: 8px
 }
 
-.lesson-part__content li > ul > li > ul > li::before {
+.lesson-part__content li>ul>li>ul>li::before {
     content: "\2014";
     color: #1E557A;
     font-size: 14px;
@@ -83,16 +82,17 @@ body {
 
 /*CSS for Lists within Tables*/
 
-.lesson-part__content table td ul, .lesson-part__content table td ol {
+.lesson-part__content table td ul,
+.lesson-part__content table td ol {
     margin-top: 0;
     padding-inline-start: 16px;
 }
 
 .lesson-part__content table td li {
-  padding-left: 8px;
-  line-height: 24px;
-  margin-bottom: 0;
-  margin-top: 2px;
+    padding-left: 8px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 2px;
 }
 
 .lesson-part__content table td li:first-of-type {
@@ -100,14 +100,15 @@ body {
 }
 
 .lesson-part__content table ul li:before {
-      content: '-'
+    content: '-'
 }
 
 .lesson-part__content table ul li ul {
     padding-inline-start: 26px;
 }
 
-.lesson-part__content table ul li li, .lesson-part__content table ol li li  {
+.lesson-part__content table ul li li,
+.lesson-part__content table ol li li {
     font-size: 14px;
     padding-left: 2px;
     margin-bottom: 0;
@@ -122,15 +123,13 @@ body {
 
 /* Adjusting marker color for dark background*/
 
-.lab ul > li::before,
+.lab ul>li::before,
 .lab ul li li::before,
 .lab ol li::marker,
-.lab ol li li::marker, 
-.quiz ul > li::before,
+.lab ol li li::marker,
+.quiz ul>li::before,
 .quiz ul li li::before,
 .quiz ol li::marker,
-.quiz ol li li::marker 
-{
+.quiz ol li li::marker {
     color: white;
 }
-
