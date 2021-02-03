@@ -261,3 +261,18 @@ time.published {
 .block img {
     margin-top: 16px;
 }
+
+/*I don't know exactly how the tooltip styling is implemented?*/
+
+
+.tooltip {
+    color: #B76900;
+    font-weight: 700;
+    border-bottom: 1.5px dashed #FFA500;
+}
+
+.lab .tooltip,
+.quiz .tooltip,
+.comment-thread .toolip {
+    color: #FFA500;
+}
