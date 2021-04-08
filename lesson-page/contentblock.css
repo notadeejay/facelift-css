@@ -276,3 +276,15 @@ time.published {
 .comment-thread .toolip {
     color: #FFA500;
 }
+
+
+/*Code Snippet CSS - currently a pre tag without a class, implemented via CKEditor plugin*/
+.custom-snippet {
+    border-radius: 4px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .custom-snippet code {
+   padding: 24px;
+  }
