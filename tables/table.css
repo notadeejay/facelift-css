@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Open+Sans:wght@300;400;600&display=swap');
 
-.section table {
+table {
   width: 100%;
   table-layout: fixed;
   border-collapse: collapse;
@@ -98,4 +98,39 @@ th {
   background: #183549;
   border-top: 2px solid #FFF;
   border-bottom: 2px solid #FFF;
+}
+
+/*SQL Block Results Table*/
+
+
+.sql-results table {
+  margin-bottom: 10px;
+}
+
+.sql-results table thead th {
+  background: #f4f5f5;
+  color: black;
+  padding: 10px;
+  font-family: Courier;
+  text-transform: lowercase;
+}
+
+.sql-results table tr {
+  vertical-align: top;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.sql-results table tr:hover {
+    background: none;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.sql-results td, .sql-results th {
+    text-align: center;
+}
+
+.sql-results td {
+    font-weight: 400;
 }
