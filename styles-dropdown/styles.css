@@ -106,6 +106,25 @@
   line-height: 16.8px;
 }
 
+.overline-blue {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 16.8px;
+  color:#1E557A;
+}
+
+/* Need to ensure that code tags wrap properly in Labs*/
+code {
+  white-space: pre-wrap;       
+  white-space: -moz-pre-wrap;  
+  white-space: -pre-wrap;     
+  white-space: -o-pre-wrap;    
+  word-wrap: break-word;  
+}
+
 code.code {
   font-family: 'Roboto Mono', monospace;
   padding: 2px 4px;
