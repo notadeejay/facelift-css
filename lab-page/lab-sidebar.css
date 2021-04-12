@@ -234,3 +234,33 @@
     font-size: 12px;
     margin-top: 2px;
 }
+
+
+
+
+main {
+    display: flex;
+}
+
+.new-lab-page__content {
+    background: pink;
+    width: 100%;
+    height: 900px;
+    margin-left: 400px;
+    padding: 32px;
+}
+
+#collapse-sidebar {
+    position: relative;
+    left: -32;
+    background: white;
+    padding: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.full-width {
+    margin-left: 0;
+}
