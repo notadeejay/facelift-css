@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap");
 
 /*Block Styles*/
 
@@ -18,27 +18,27 @@
 
 /* adds the correct color border based on callout type */
 .instruction {
-  border-left: 8px solid #039BE8;
-  background-color: #C9EDFB;
+  border-left: 8px solid #039be8;
+  background-color: #c9edfb;
 }
 
 .note {
-  border-left: 8px solid #FFA500;
-  background-color: #FFF4CC;
+  border-left: 8px solid #ffa500;
+  background-color: #fff4cc;
 }
 
 .warning {
-  border-left: 8px solid #FF6347;
-  background-color: #FFD1B5;
+  border-left: 8px solid #ff6347;
+  background-color: #ffd1b5;
 }
 
 .definition {
-  border-left: 8px solid #1E557A;
-  background-color: #D6E6F1;
+  border-left: 8px solid #1e557a;
+  background-color: #d6e6f1;
 }
 
 .content-warning {
-  border: 1px solid #7A3D00;
+  border: 1px solid #7a3d00;
   border-radius: 8px;
 }
 
@@ -46,11 +46,10 @@
   padding: 10px 15px;
   max-width: 95%;
   margin: 20px auto;
-  background-color: #FFD485;
+  background-color: #ffd485;
   font-weight: 700;
   border: 3px dashed black;
 }
-
 
 .comment::before {
   content: "💬 ";
@@ -59,12 +58,11 @@
   margin: 0;
 }
 
-
 .as-right,
 .as-left {
   width: 30%;
   min-height: 202px;
-  background: #D6E6F1;
+  background: #d6e6f1;
   font-size: 14px;
   padding: 15px 20px;
   font-weight: 400;
@@ -73,7 +71,6 @@
   align-content: center;
   flex-direction: column;
 }
-
 
 .as-right {
   float: right;
@@ -85,20 +82,18 @@
   margin-right: 30px;
 }
 
-
 .bq {
-  border-left: 8px solid #FFEFD5;
-  background: #FFFDF6;
+  border-left: 8px solid #ffefd5;
+  background: #fffdf6;
   font-style: italic;
   padding: 20px 46px;
   font-size: 16px;
 }
 
-
 /*Inline Styles*/
 
 .callout-keyword {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1px;
@@ -107,40 +102,36 @@
 }
 
 .overline-blue {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 11px;
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 16.8px;
-  color:#1E557A;
+  color: #1e557a;
 }
 
 /* Need to ensure that code tags wrap properly in Labs*/
 code {
-  white-space: pre-wrap;       
-  white-space: -moz-pre-wrap;  
-  white-space: -pre-wrap;     
-  white-space: -o-pre-wrap;    
-  word-wrap: break-word;  
+  word-wrap: break-word;
 }
 
 code.code {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   padding: 2px 4px;
-  background-color: #EFEFEF;
-  border: 1px solid #C9C9C9;
+  background-color: #efefef;
+  border: 1px solid #c9c9c9;
   border-radius: 2px;
   font-weight: 400;
 }
 
 .code.sql {
-  color: #0171B7;
+  color: #0171b7;
   font-weight: 600;
 }
 
 .code.excel {
-  color: #2A7A1F;
+  color: #2a7a1f;
   font-weight: 600;
 }
 
@@ -162,7 +153,7 @@ kbd {
 }
 
 .inline-comment {
-  background: #FFD485;
+  background: #ffd485;
   padding: 2px;
   font-weight: 700;
   border: 2px solid black;
