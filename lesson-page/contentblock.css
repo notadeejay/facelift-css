@@ -1,290 +1,288 @@
 /*General Block CSS*/
 
 .block {
-    position: relative;
-    margin: 0;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    padding: 16px 0px;
+  position: relative;
+  margin: 0;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 16px 0px;
 }
 
 .block p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 @media screen and (min-width: 992px) {
-    .lesson-part__contentBlock {
-        width: 100%;
-        padding: 24px 0px 0;
-    }
+  .lesson-part__contentBlock {
+    width: 100%;
+    padding: 24px 0px 0;
+  }
 }
 
 .lesson-part__contentBlock {
-    position: relative;
-    padding: 16px 0 0;
+  position: relative;
+  padding: 16px 0 0;
 }
 
 .html__title h2 {
-    color: #1E557A;
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    letter-spacing: 0.5px;
-    line-height: 38.4px;
-    margin-top: 2px;
-    margin-bottom: 0px;
+  color: #1e557a;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: 38.4px;
+  margin-top: 2px;
+  margin-bottom: 0px;
 }
 
-.block h3+p {
-    margin-top: 10px;
+.block h3 + p {
+  margin-top: 10px;
 }
 
-.block h4+p {
-    margin-top: 10px;
+.block h4 + p {
+  margin-top: 10px;
 }
 
 .label {
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 800;
-    line-height: 13.2px;
-    color: #1E557A;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;
+  line-height: 13.2px;
+  color: #1e557a;
 }
 
-
 .block-header {
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    position: static;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    margin-top: 11px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 0;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  position: static;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .block-icon {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .block-label {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
 }
-
 
 /*Centering the titles on specific blocks*/
 .typeform .heading,
 .next-tech .heading,
 .sql .heading,
 .embed .heading {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #1E557A;
-    letter-spacing: 1px;
-    line-height: 19.2px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #1e557a;
+  letter-spacing: 1px;
+  line-height: 19.2px;
 }
-
 
 /*Collapsible Snippet Block*/
 .lesson-part .collapsible_html {
-    margin-top: -48px;
+  margin-top: -48px;
 }
 
 /* Comment Thread Block*/
 .comment_thread {
-    padding: 32px 48px;
+  padding: 32px 48px;
 }
 
 .comment_thread .heading,
 .comment_thread .label {
-    color: white;
+  color: white;
 }
 
-.comment-thread-wrapper .comment-thread__header .input-wrapper .input .input-element {
-    border: 1.5px solid #1E557A;
-    border-radius: 4px;
-    min-height: 48px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    padding: 0 95px 0 50px;
+.comment-thread-wrapper
+  .comment-thread__header
+  .input-wrapper
+  .input
+  .input-element {
+  border: 1.5px solid #1e557a;
+  border-radius: 4px;
+  min-height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  padding: 0 95px 0 50px;
 }
 
 .comment-thread-wrapper .comment-thread__header .input-wrapper .input {
-    position: relative;
-    margin: 32px 0px;
+  position: relative;
+  margin: 32px 0px;
 }
 
 .comment-thread .button {
-    position: absolute;
-    right: 10px;
-    bottom: 25px;
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
 }
 
 .comment-thread .button .button-standard--short {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
-
-
 .comment-thread-wrapper .comment-thread__body .single-comment__body p {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 25px;
-
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 .comment-thread-wrapper .comment-thread__body .single-comment {
-    padding-bottom: 28px;
+  padding-bottom: 28px;
 }
 
 .comment-thread-wrapper .comment-thread__body .single-comment__header .column {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 8px;
 }
 
 .comment-thread-wrapper .comment-thread .user-profile-picture {
-    display: block;
-    border-radius: 100%;
-    width: 48px;
-    height: 48px;
-    margin-right: 8px;
-    background: #C4C4C4;
+  display: block;
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+  background: #c4c4c4;
 }
 
-.comment-thread-wrapper .comment-thread__body .single-comment__header .column .user-name {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: center;
-    align-content: center;
+.comment-thread-wrapper
+  .comment-thread__body
+  .single-comment__header
+  .column
+  .user-name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
 }
 
 .comment-thread-wrapper .comment-thread__body .single-comment__body {
-    display: block;
-    padding-left: 55px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 25px;
-    margin-top: -20px;
+  display: block;
+  padding-left: 55px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: -20px;
 }
 
-.comment-thread-wrapper .comment-thread__body .single-comment__header .column.timestamp-wrapper {
-    position: relative;
+.comment-thread-wrapper
+  .comment-thread__body
+  .single-comment__header
+  .column.timestamp-wrapper {
+  position: relative;
 }
 
 time.published {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.5px;
-    color: #D6E6F1;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #d6e6f1;
 }
 
 .course-card__button {
-    background: transparent;
-    border: none;
-    margin: 0 -10px 0 0;
-    padding: 0;
-    padding: 15px 10px;
+  background: transparent;
+  border: none;
+  margin: 0 -10px 0 0;
+  padding: 0;
+  padding: 15px 10px;
 }
 
 .comment-thread .single-comment__header svg path {
-    fill: #D6E6F1;
+  fill: #d6e6f1;
 }
 
 .icon-element--size-auto {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
 
 .icon-element--background-transparent {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .comment-thread-wrapper .comment-thread__body .single-comment__header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
 }
 
 /*Video Block Heading*/
 .block figcaption,
 .block.video .heading {
-    font-family: Open Sans;
-    font-style: italic;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: 0.5px;
-    color: #1E557A;
-    margin-top: 10px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #1e557a;
+  margin-top: 10px;
 }
 
 .block.video .heading {
-    text-align: center;
+  text-align: center;
 }
 
 .block img {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 /*I don't know exactly how the tooltip styling is implemented?*/
 
-
 .tooltip {
-    color: #B76900;
-    font-weight: 700;
-    border-bottom: 1.5px dashed #FFA500;
+  color: #b76900;
+  font-weight: 700;
+  border-bottom: 1.5px dashed #ffa500;
 }
 
 .lab .tooltip,
 .quiz .tooltip,
 .comment-thread .toolip {
-    color: #FFA500;
+  color: #ffa500;
 }
 
-
 /*Code Snippet CSS - currently a pre tag without a class, implemented via CKEditor plugin*/
-.custom-snippet {
-    border-radius: 4px;
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .custom-snippet code {
-   padding: 24px;
-  }
+
+.custom-snippet code {
+  padding: 20px;
+}
